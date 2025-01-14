@@ -3,13 +3,20 @@ import Navbar from "./Component/Navbar";
 import Dashboard from "./Component/Dashboard";
 import OurStory from "./Component/OurStory";
 import FormandInfo from "./Component/FormandInfo";
-const App=()=>{
-  return(
+import Properties from "./Component/Properties/Properties";
+import Footer from "./Component/Footer/Footer";
+import "./App.css"
+const App = () => {
+  return (
     <>
-    <Navbar/>
-    <Dashboard/>
-    <FormandInfo/>
-    <OurStory/>
+      <div className="body_container">
+        <Navbar />
+        <Dashboard />
+        <FormandInfo />
+        <OurStory />
+        <Properties />
+      </div>
+      <Footer />
     </>
   )
 }

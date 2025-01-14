@@ -1,0 +1,21 @@
+._footer_container{
+    padding: 15px 30px 20px;
+    min-height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+._footer_col_left{
+    flex: 3;
+}
+._footer_col_mid{
+   flex: 1.5;
+}
+._footer_col_right{
+    flex: 3;
+}
+.prefr_img{
+   object-fit: cover;
+   width: 303px;
+   height: 91px;
+}
