@@ -9,22 +9,26 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-[61px] h-[57px]" />
           <div className="ml-[20px]">
             <p
-              className="font-[Geologica] font-weight: 700 text-[35px] leading-[43.75px] w-[175px] h-[44px]"
+              className="font-[Geologica] font-bold text-[35px] leading-[43.75px] w-[175px] h-[44px]"
               style={{ position: "absolute", top: "23px", left: "129px" }}
             >
               KREDITPE
             </p>
             <p
-              className="font-[Gautami] font-weight: 700 text-[15px] leading-[28.59px] w-[131px] h-[29px]"
+              className="font-[Gautami] font-bold text-[15px] leading-[28.59px] w-[131px] h-[29px]"
               style={{ position: "absolute", top: "64px", left: "150px" }}
             >
               Loan in 10 min Only
             </p>
           </div>
         </div>
-        <div>
-          <button>APPLE</button>
-          <button>Local</button>
+        <div className="absolute top-[150px] left-[49px] flex gap-4">
+          <button className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">
+            APPLE
+          </button>
+          <button className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">
+            Local
+          </button>
         </div>
       </div>
     </>
