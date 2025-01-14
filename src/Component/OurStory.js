@@ -5,6 +5,7 @@ const OurStory=()=>{
         <>
         <div>
             <p>Our Story so far</p>
+            <p></p>
         </div>
         </>
     )
