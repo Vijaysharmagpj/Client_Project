@@ -1,0 +1,61 @@
+.story-title {
+    position: absolute;
+    width: 268px;
+    height: 46px;
+    top: 1751px;
+    left: 586px;
+  }
+  
+  .story-title p {
+    color: #252525;
+    font-family: "DM Sans";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45.57px;
+    text-align: left;
+  }
+  
+  .story-container {
+    position: absolute;
+    width: 558px;
+    height: 493px;
+    top: 1846px;
+    left: 127px;
+    background-color: #ffeceb;
+    border-radius: 30px;
+    border: 1px solid #ffeceb;
+    box-shadow: 0px 4px 4px 0px #00000040;
+  }
+  
+  .story-image {
+    position: absolute;
+    width: 179px;
+    height: 179px;
+    top: 53px;
+    left: 189px;
+  }
+  
+  .story-number {
+    position: absolute;
+    width: 167px;
+    height: 46px;
+    top: 246px;
+    left: 207px;
+    color: #e00000;
+    font-family: "DM Sans";
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 45.57px;
+    text-align: left;
+  }
+  .family {
+    position: absolute;
+    width: 227px;
+    height: 46px;
+    top: 300px;
+    left: 304px;
+    gap: 0px;
+    
+  }
+  
+  
