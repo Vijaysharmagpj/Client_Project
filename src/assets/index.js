@@ -13,7 +13,12 @@ import Razorpay from "./images/Razaorpay.png";
 import unity from "./images/unity.png";
 import zest from "./images/zest.png"
 import iifl from "./images/iifl.png"
-
+import safe from "./images/Safe.svg"
+import note from "./images/Notepad.svg"
+import thumbs from "./images/Thumbs.svg"
+import call from "./images/Contact.svg"
+import post from "./images/Post.svg"
+import bell from "./images/Bell.svg"
 const images = {
 contact,
   prefr,
@@ -29,7 +34,13 @@ contact,
   poonawalla,
   unity,
   zest,
-  iifl
+  iifl,
+  safe,
+  note,
+  thumbs,
+  call,
+  post,
+  bell
 };
 
 export default images;
