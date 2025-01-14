@@ -1,5 +1,4 @@
 KREDITPE - Instant Loan Application Website
-<!-- Replace with an actual screenshot -->
 
 Overview
 KREDITPE is a modern and user-friendly loan application website that offers instant loans up to ₹5 Lakhs. This website streamlines the loan application process for users such as stock traders, small business owners, and others with minimal requirements and hassle-free documentation.
@@ -31,8 +30,8 @@ Minimum income of ₹10,000/month
 Document Requirements
 Identity proof, income proof, and bank statements.
 Tech Stack
-Frontend: HTML, CSS, JavaScript
-Backend: Node.js, Express.js (Optional if backend included)
+Frontend: HTML, tailwind, JavaScript
+Backend: Node.js, Express.js
 UI/UX Design: Based on Figma prototype
 
 # Getting Started with Create React App
