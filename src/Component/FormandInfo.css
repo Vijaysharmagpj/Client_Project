@@ -1,27 +1,27 @@
-.wrapper{
+.wrapper1{
     display: flex;
 }
 
-.container {
-    width: 1376px;
+.container1 {
+    /* width: 1376px; */
+    flex: 1;
     height: 817px;
     margin-top: 884px;
     left: 31px;
-    gap: 0px;
     border-radius: 20px 0px 0px 0px;
     background-color: #FFF9DD; /* Ensure it matches the original intent */
 }
 
-.header {
-    width: 726px;
+.header1 {
+    /* width: 726px; */
     height: 83px;
     margin-top: 15px;
     margin-left: 15px;
     gap: 1px;
 }
 
-.header-title {
-    width: 726px;
+.header-title1 {
+    /* width: 726px; */
     height: 39px;
     font-family: 'DM Sans', sans-serif; /* Ensures fallback in case DM Sans is unavailable */
     font-size: 30px;
@@ -31,9 +31,8 @@
     text-underline-position: from-font;
 }
 
-.header-subtitle {
-    /* width: 100%;  */
-    max-width: 726px; /* Restricts width to a maximum of 726px */
+.header-subtitle1 {
+    /* max-width: 726px;  */
     /* height: auto;  */
     max-height: 43px; 
     gap: 7px; /* Adds spacing between child elements */
@@ -41,8 +40,8 @@
     align-items: center; /* Optional, aligns content vertically */
 }
 
-.highlight {
-    width: 155px;
+.highlight1 {
+    /* width: 155px; */
     height: 43px;
     font-family: 'DM Sans', sans-serif; /* Includes fallback */
     font-size: 33px;
@@ -53,22 +52,22 @@
     color: #2A6877;
 }
 
-.sub-highlight {
-    width: 564px;
+.sub-highlight1 {
+    /* width: 564px; */
     height: 39px;
     font-size: 30px;
     font-weight: 600;
 }
-.new-highlight{
-    width: 564px;
+.new-highlight1{
+    /* width: 564px; */
     height: 39px;
     font-size: 30px;
     font-weight: 600;
     color: #2A6877;
 }
 
-.sub-header {
-    width: 530px;
+.sub-header1 {
+    /* width: 530px; */
     height: 20px;
     margin-top: 20px;
     margin-left: 78px;
@@ -78,22 +77,27 @@
     line-height: 19.53px;
 }
 
-.divider {
-    width: 384px;
+.divider1 {
+    /* width: 384px; */
+    width: 50%;
     margin-top: 45px;
-    margin-left: 176px;
+    /* margin-left: 176px; */
     border-top: 1px solid black; /* Adds a 1px black border at the top */
 }
 
+.divider1Container{
+    display: flex;
+    justify-content: center;
+}
 
-.row {
+.row1 {
     display: flex;
     gap: 80px;
     margin-top: 81px;
 }
 
-.box {
-    width: 245px;
+.box1 {
+    /* width: 245px; */
     height: 183px;
     /* position: relative; */
     margin-top: 0px; 
@@ -131,7 +135,7 @@
     /* border: 1px solid red; */
 }
 
-.firstheading{
+.firstheading1{
     display: flex;
 }
 
@@ -140,7 +144,7 @@
     height: 21px;
 }
 
-.headName {
+.headName1 {
     width: 203px;
     height: 26px;
     margin-left: 23px;
@@ -210,12 +214,14 @@
     text-align: left;
 }
 
-.sidebox {
-    width: 703px;
+.sidebox1 {
+    /* width: 703px; */
+    flex: 1;
     height: 817px;
     /* position: absolute; */
     margin-top: 884px;
-    margin-left: 705px;
+    margin-left: -15px;
+    /* margin-left: 705px; */
     border-radius: 20px 0px 0px 0px;
     /* border-left: 1px solid #000; */
     background-color: #DEFEF6;
@@ -367,9 +373,7 @@ ul li::marker {
 }
 
 .infomsg {
-    width: 221px; /* Width of the information message */
-    height: 16px; /* Optional: Enforces height for layout consistency */
-    margin-top: 5px;
+
     font-family: 'DM Sans', sans-serif; /* Font family for the message */
     font-size: 12px; /* Sets the font size */
     font-weight: 600; /* Bold font weight for emphasis */
@@ -380,9 +384,8 @@ ul li::marker {
 
 .tandc {
     width: 666px; /* Width of the terms and conditions text */
-    height: 18px; /* Height for layout alignment */
     margin-left: 33px;
-    margin-top: 10px;
+    margin-top: 25px;
     font-family: 'DM Sans', sans-serif; /* Specifies the font */
     font-size: 14px; /* Font size for the text */
     font-weight: 600; /* Bold font weight for emphasis */
