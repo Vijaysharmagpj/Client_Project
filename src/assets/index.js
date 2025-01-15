@@ -43,6 +43,7 @@ import docimage from "./images/image12.png";
 import check from "./images/image15.png";
 import eligible from "./images/image14.png";
 import role from "./images/image13.png";
+import footerimg from "./images/footerimg.png"
 const images = {
   contact,
   bro,
@@ -90,6 +91,7 @@ const images = {
   identitycheck,
   kyccheck,
   incomecheck,
+  footerimg
 };
 
 export default images;
