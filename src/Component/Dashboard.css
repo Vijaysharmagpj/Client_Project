@@ -6,8 +6,10 @@
 }
 
 .dashboard-content {
-  width: 826px;
+  /* width: 826px; */
   /* height: 549px; */
+  display: flex;
+  align-items: flex-end;
   gap: 24px;
   top: 18px;
 }
@@ -32,6 +34,11 @@
 .dashboard-header {
   width: 844px;
   height: 347px;
+  flex: 3.5;
+}
+
+.image-dashboard{
+  flex: 2;
 }
 
 .header-title {

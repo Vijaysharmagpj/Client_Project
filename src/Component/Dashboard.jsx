@@ -1,5 +1,7 @@
 import React from "react";
 import "./Dashboard.css";
+import images from "../assets/index"
+
 
 const Dashboard = () => {
   return (
@@ -16,15 +18,19 @@ const Dashboard = () => {
             (STOCK TRADERS/BAD CIBIL PROFILE/UN-EMPLOYED/SHOP KEEPERS/SMALL
             BUSINESSMEN...ETC)
           </span>
-        </div>
-      </div>
-      <div className="loan-services">
+          <div className="loan-services">
         <p className="services-description">
           Our loan services offer a hassle-free and streamlined borrowing
           experience, providing you with the funds you need in a timely manner
           to meet your financial requirements.
         </p>
       </div>
+        </div>
+        <div className="image-dashboard">
+          <img src={images.bro} alt="images"/>
+        </div>
+      </div>
+
       <button className="getstart">Get started</button>
     </div>
   );
