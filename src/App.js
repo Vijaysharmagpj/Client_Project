@@ -6,6 +6,9 @@ import FormandInfo from "./Component/FormandInfo";
 import Properties from "./Component/Properties/Properties";
 import Footer from "./Component/Footer/Footer";
 import "./App.css"
+import Getstart from "./Component/Getstart";
+import EligibilityCriteria from "./Component/EligibilityCriteria";
+import DocumentReq from "./Component/DocumentReq";
 const App = () => {
   return (
     <>
@@ -14,6 +17,9 @@ const App = () => {
         <Dashboard />
         <FormandInfo />
         <OurStory />
+        <Getstart/>
+        <EligibilityCriteria/>
+        <DocumentReq/>
         <Properties />
       </div>
       <Footer />

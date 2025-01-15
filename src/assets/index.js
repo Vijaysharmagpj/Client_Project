@@ -19,6 +19,25 @@ import thumbs from "./images/Thumbs.svg"
 import call from "./images/Contact.svg"
 import post from "./images/Post.svg"
 import bell from "./images/Bell.svg"
+import familyimage from "./images/familyimage.png";
+import TrustedUser from "./images/Trusted User.png";
+import month from "./images/month.png";
+import loan from "./images/loan.png";
+import CheckEligibility from "./images/CheckEligibility.png"
+import bg from "./images/bg.png"
+import kyc from "./images/kyc.png"
+import setforloan from "./images/setfor loan.png"
+import addamount from "./images/add amount.png";
+import readyforloan from "./images/readyforloan.png"
+import noneed from "./images/noneed.png";
+import income from "./images/income.png";
+import age from "./images/18.png"
+import photocheck from "./images/photo check.png";
+import identitycheck from "./images/identity check.png";
+import kyccheck from "./images/kyc check.png";
+import incomecheck from "./images/income check.png";
+
+
 import docimage from './images/image12.png'
 import check from './images/image15.png'
 import eligible from './images/image14.png'
@@ -26,6 +45,8 @@ import role from './images/image13.png'
 const images = {
 contact,
   prefr,
+  logo,
+  logo,
   logo,
   docimage,
   check,
@@ -48,7 +69,24 @@ contact,
   post,
   bell,
   eligible,
-  role
+  role,
+  familyimage,
+  TrustedUser,
+  month,
+  loan,
+  CheckEligibility,
+  bg,
+  kyc,
+  setforloan,
+  addamount,
+  readyforloan,
+  noneed,
+  income,
+  age,
+  photocheck,
+  identitycheck,
+  kyccheck,
+  incomecheck
 };
 
 export default images;
