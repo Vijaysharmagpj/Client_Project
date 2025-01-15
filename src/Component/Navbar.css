@@ -50,4 +50,16 @@
   .navbar-button:hover {
     background-color: #4a4a4a;
   }
+
+  .navbar_link {
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Align items vertically center */
+    gap: 10px; /* Add space between images */
+  }
+  
+  .navbar_link img {
+    width: auto; /* Maintain original aspect ratio */
+    height: 40px; /* Adjust height to desired size */
+  }
+  
   

@@ -5,10 +5,10 @@ import images from "../assets";
 const DocumentReq = () => {
   return (
     <>
-    <div className="wrapper">
+    <div className="wrapper-docu">
       <p className="title">Document Required</p>
     </div>
-      <div className="container">
+      <div className="container-docu">
         <div className="steps-container">
           <div className="step">
             <div className="circle">

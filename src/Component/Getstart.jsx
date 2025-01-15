@@ -46,34 +46,34 @@ const Getstart = () => {
       <div className="_attritubes_container">
         <div className="_attribute_container_col">
           <div className="circular_bg">
-             <img src={images.readyforloan} alt="readyforloan"/>
+             <img src={images.CheckEligibility} alt="readyforloan"/>
           </div>
           <h2 className="attribute_container_col_heading">Check <br /> Eligibility</h2>
         </div>
         
          <div className="_attribute_container_col">
           <div className="circular_bg">
-             <img src={images.readyforloan} alt="readyforloan"/>
+             <img src={images.kyc} alt="readyforloan"/>
           </div>
-          <h2 className="attribute_container_col_heading">Check <br /> Eligibility</h2>
+          <h2 className="attribute_container_col_heading">Complete <br /> KYC</h2>
+        </div>
+        <div className="_attribute_container_col">
+          <div className="circular_bg">
+             <img src={images.setforloan} alt="readyforloan"/>
+          </div>
+          <h2  className="attribute_container_col_heading">Set Your Loan <br /> Amount</h2>
+        </div>
+        <div className="_attribute_container_col">
+          <div className="circular_bg">
+             <img src={images.addamount} alt="readyforloan"/>
+          </div>
+          <h2  className="attribute_container_col_heading">Add <br /> Account</h2>
         </div>
         <div className="_attribute_container_col">
           <div className="circular_bg">
              <img src={images.readyforloan} alt="readyforloan"/>
           </div>
-          <h2  className="attribute_container_col_heading">Check <br /> Eligibility</h2>
-        </div>
-        <div className="_attribute_container_col">
-          <div className="circular_bg">
-             <img src={images.readyforloan} alt="readyforloan"/>
-          </div>
-          <h2  className="attribute_container_col_heading">Check <br /> Eligibility</h2>
-        </div>
-        <div className="_attribute_container_col">
-          <div className="circular_bg">
-             <img src={images.readyforloan} alt="readyforloan"/>
-          </div>
-          <h2  className="attribute_container_col_heading">Check  <br />Eligibility</h2>
+          <h2  className="attribute_container_col_heading">Ready For  <br />Loan</h2>
         </div>
       </div>
     </>

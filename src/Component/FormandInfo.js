@@ -4,28 +4,30 @@ import images from "../assets";
 const FormandInfo = () => {
     return (
         <>
-            <div className="wrapper">
-                <div className="container">
-                    <div className="header">
-                        <p className="header-title">Achieve your Dreams With</p>
-                        <p className="header-subtitle">
-                            <span className="highlight">KREDITPE </span>
-                            <span className="sub-highlight">INSTANT LOANS </span>
-                            <span className="new-highlight">Within 10 Minutes</span>
+            <div className="wrapper1">
+                <div className="container1">
+                    <div className="header1">
+                        <p className="header-title1">Achieve your Dreams With</p>
+                        <p className="header-subtitle1">
+                            <span className="highlight1">KREDITPE </span>
+                            <span className="sub-highlight1">INSTANT LOANS </span>
+                            <span className="new-highlight1">Within 10 Minutes</span>
                         </p>
                     </div>
 
-                    <div className="sub-header">
+                    <div className="sub-header1">
                         Instant Loan | 100% Digital | Collateral-Free Loan | NO CREDIT HISTORY NEED
                     </div>
+<div className="divider1Container">
+<hr className="divider1" />
 
-                    <hr className="divider" />
+</div>
 
-                    <div className="row">
-                        <div className="box">
-                            <div className="firstheading">
+                    <div className="row1">
+                        <div className="box1">
+                            <div className="firstheading1">
                                 <img src={images?.docimage} alt="docimage" className="img1" />
-                                <div className="headName">Documents Required</div>
+                                <div className="headName1">Documents Required</div>
                             </div>
                             <div className="list1">
                                 <ul>
@@ -36,7 +38,7 @@ const FormandInfo = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="box box-tall">
+                        <div className="box1 box-tall">
                             <div className="secondheading">
                                 <img src={images?.check} alt="check" className="img2" />
                                 <div className="headName2">Who can Apply here</div>
@@ -93,14 +95,14 @@ const FormandInfo = () => {
                 </div>
 
 
-                <div className="sidebox">
+                <div className="sidebox1">
 
 
-                    <div className="header">
-                        <p className="header-title">Start Your Application At</p>
-                        <p className="header-subtitle">
-                            <span className="highlight">KREDITPE </span>
-                            <span className="sub-highlight">and get Loan in 10 minutes now </span>
+                    <div className="header1">
+                        <p className="header-title1">Start Your Application At</p>
+                        <p className="header-subtitle1">
+                            <span className="highlight1">KREDITPE </span>
+                            <span className="sub-highlight1">and get Loan in 10 minutes now </span>
                         </p>
                     </div>
 
