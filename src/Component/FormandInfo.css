@@ -5,8 +5,8 @@
 .container1 {
     /* width: 1376px; */
     flex: 1;
-    height: 817px;
-    margin-top: 884px;
+    /* height: 817px; */
+    /* margin-top: 884px; */
     left: 31px;
     border-radius: 20px 0px 0px 0px;
     background-color: #FFF9DD; /* Ensure it matches the original intent */
@@ -217,9 +217,9 @@
 .sidebox1 {
     /* width: 703px; */
     flex: 1;
-    height: 817px;
+    /* height: 817px; */
     /* position: absolute; */
-    margin-top: 884px;
+    /* margin-top: 884px; */
     margin-left: -15px;
     /* margin-left: 705px; */
     border-radius: 20px 0px 0px 0px;
