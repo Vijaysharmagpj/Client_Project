@@ -219,7 +219,7 @@
     border-radius: 20px 0px 0px 0px;
     /* border-left: 1px solid #000; */
     background-color: #DEFEF6;
-    position: absolute;
+    /* position: absolute; */
     z-index: 0; /* Applies a left border */
 }
 
@@ -353,7 +353,7 @@ ul li::marker {
 .validatemsg {
     width: 312px; 
     height: 16px; 
-    position: absolute; 
+    /* position: absolute;  */
     /* top: 496px;  */
     /* left: 36px; */
     font-family: 'DM Sans', sans-serif; 
