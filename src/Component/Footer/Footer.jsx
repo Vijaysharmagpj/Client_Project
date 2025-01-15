@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="_footer_container">
 
         <div className="_footer_col_left">
-          <div className="_footer_col_left_row">
+          <div className="_footer_col_left_row"> 
             <img src={images?.footerimg} alt="prefr" className='prefr_img' />
           </div>
           <div className="_footer_col_left_row">
