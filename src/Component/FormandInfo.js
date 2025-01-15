@@ -57,7 +57,7 @@ const FormandInfo = () => {
 
                     <div className="row row-spaced">
                         <div className="box1">
-                            <div className="firstheading">
+                            <div className="firstheading1">
                                 <img src={images?.eligible} alt="eligible" className="img1" />
                                 <div className="headName3">Eligibility For Instant Loan</div>
                             </div>
