@@ -36,6 +36,7 @@ import photocheck from "./images/photo check.png";
 import identitycheck from "./images/identity check.png";
 import kyccheck from "./images/kyc check.png";
 import incomecheck from "./images/income check.png";
+import phone from "./images/phone.svg"
 
 
 import docimage from './images/image12.png'
@@ -82,6 +83,7 @@ contact,
   readyforloan,
   noneed,
   income,
+  phone,
   age,
   photocheck,
   identitycheck,

@@ -1,5 +1,5 @@
 /* Wrapper styling */
-.wrapper {
+.wrapper-docu {
     width: 100%; /* Ensures it spans the full container width */
     /* height: 46px;  */
     display: flex; /* Flex for alignment */
@@ -21,10 +21,10 @@
   }
   
   /* Container for steps */
-  .container {
+  .container-docu {
     display: flex;
     justify-content: center; /* Center steps container */
-    padding: 0 20px; /* Add some padding */
+    padding: 20px; /* Add some padding */
   }
   
   /* Steps container */
@@ -47,7 +47,7 @@
     gap: 15px; /* Spacing between children elements */
     border-radius: 188px; /* Rounded corners */
     background: linear-gradient(180deg, rgba(195, 255, 241, 0.5) 0%, #FFFFFF 100%);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
   }
 
   .step-bottom {
@@ -99,4 +99,22 @@
     line-height: 24px; /* Line height for readability */
     color: #4a514f; /* Subtle gray */
   }
+
+    /* Step title */
+    .step-bottom h3 {
+      font-family: "DM Sans";
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #252525; /* Dark gray */
+    }
+    
+    /* Step description */
+    .step-bottom p {
+      font-family: "DM Sans";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px; /* Line height for readability */
+      color: #4a514f; /* Subtle gray */
+    }
   
