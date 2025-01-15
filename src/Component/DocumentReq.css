@@ -1,7 +1,7 @@
 /* Wrapper styling */
 .wrapper {
     width: 100%; /* Ensures it spans the full container width */
-    height: 46px; /* Fixed height */
+    /* height: 46px;  */
     display: flex; /* Flex for alignment */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */

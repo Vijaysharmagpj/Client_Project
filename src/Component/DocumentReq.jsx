@@ -1,5 +1,5 @@
 import React from "react";
-// import "./DocumentReq.css";
+import "./DocumentReq.css";
 import images from "../assets";
 
 const DocumentReq = () => {
