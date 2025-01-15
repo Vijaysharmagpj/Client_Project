@@ -1,0 +1,35 @@
+._properties_container{
+    margin: 20px 0px 70px;
+}
+._properties_heading{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+._properties_metadat_row_{
+    margin: 20px 0px 50px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.meta_data_title{
+    font-size: 30px;
+    font-weight: 600;
+}
+._meta_properties_content p{
+   font-size: 16px;
+   color: #4C4E4E;
+   text-align: center;
+}
+._properties_img{
+    display: flex;
+    justify-content: center;
+}
+.meta_data_title{
+    display: flex;
+    justify-content: center;
+}
+._properties_metadata_col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
