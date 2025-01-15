@@ -1,0 +1,457 @@
+.wrapper{
+    display: flex;
+}
+
+.container {
+    width: 1376px;
+    height: 817px;
+    margin-top: 884px;
+    left: 31px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    background-color: #FFF9DD; /* Ensure it matches the original intent */
+}
+
+.header {
+    width: 726px;
+    height: 83px;
+    margin-top: 15px;
+    margin-left: 15px;
+    gap: 1px;
+}
+
+.header-title {
+    width: 726px;
+    height: 39px;
+    font-family: 'DM Sans', sans-serif; /* Ensures fallback in case DM Sans is unavailable */
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 39.06px;
+    text-align: center;
+    text-underline-position: from-font;
+}
+
+.header-subtitle {
+    /* width: 100%;  */
+    max-width: 726px; /* Restricts width to a maximum of 726px */
+    /* height: auto;  */
+    max-height: 43px; 
+    gap: 7px; /* Adds spacing between child elements */
+    /* display: flex;  */
+    align-items: center; /* Optional, aligns content vertically */
+}
+
+.highlight {
+    width: 155px;
+    height: 43px;
+    font-family: 'DM Sans', sans-serif; /* Includes fallback */
+    font-size: 33px;
+    font-weight: 800;
+    line-height: 42.97px;
+    text-align: left;
+    text-underline-position: from-font;
+    color: #2A6877;
+}
+
+.sub-highlight {
+    width: 564px;
+    height: 39px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.new-highlight{
+    width: 564px;
+    height: 39px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #2A6877;
+}
+
+.sub-header {
+    width: 530px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 78px;
+    font-family: 'DM Sans', sans-serif; /* Ensures fallback in case DM Sans is unavailable */
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.53px;
+}
+
+.divider {
+    width: 384px;
+    margin-top: 45px;
+    margin-left: 176px;
+    border-top: 1px solid black; /* Adds a 1px black border at the top */
+}
+
+
+.row {
+    display: flex;
+    gap: 80px;
+    margin-top: 81px;
+}
+
+.box {
+    width: 245px;
+    height: 183px;
+    /* position: relative; */
+    margin-top: 0px; 
+    margin-left: 9px;
+    /* border: 1px solid red; */
+}
+
+.box-tall {
+    width: 290px;
+    height: 217px;
+    margin-left: 0;
+    /* border: 1px solid red; */
+}
+
+.row-spaced{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 9px;
+}
+
+.box1 {
+    width: 310px;
+    height: 196px;
+    /* position: relative; */
+    margin-top: 0px; 
+    margin-left: 1px;
+    /* border: 1px solid red; */
+}
+
+.box-tall1 {
+    width: 322px;
+    height: 267px;
+    margin-left: 0;
+    /* border: 1px solid red; */
+}
+
+.firstheading{
+    display: flex;
+}
+
+.img1 {
+    width: 19px;
+    height: 21px;
+}
+
+.headName {
+    width: 203px;
+    height: 26px;
+    margin-left: 23px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26.04px;
+    text-align: left;
+}
+
+.list1 {
+    width: 204px;
+    height: 132px;
+    margin-top: 20px;
+    line-height: 2;
+    font-size: 14px;
+}
+
+
+.secondheading{
+    display: flex;
+}
+
+.img2 {
+    width: 23px;
+    height: 20px;
+}
+
+.headName2 {
+    width: 195px;
+    height: 26px;
+    margin-left: 23px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26.04px;
+    text-align: left;
+}
+
+.list2 {
+    font-size: 14px;
+    /* width: 204px;
+    height: 132px; */
+    margin-top: 20px;
+    line-height: 2;
+}
+
+.headName3 {
+    width: 230px;
+    height: 26px;
+    margin-left: 23px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26.04px;
+    text-align: left;
+}
+
+.headName4 {
+    width: 230px;
+    height: 26px;
+    margin-left: 23px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 26.04px;
+    text-align: left;
+}
+
+.sidebox {
+    width: 703px;
+    height: 817px;
+    /* position: absolute; */
+    margin-top: 884px;
+    margin-left: 705px;
+    border-radius: 20px 0px 0px 0px;
+    /* border-left: 1px solid #000; */
+    background-color: #DEFEF6;
+    /* position: absolute; */
+    z-index: 0; /* Applies a left border */
+}
+
+.selectField {
+    width: 225px;
+    height: 29px;
+    margin-top: 17px;
+    margin-left: 33px;
+    font-size: 22px;
+    /* font-weight: 600; */
+}
+
+.textstyle{
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: disc; 
+    padding-left: 20px; 
+}
+
+ul li::marker {
+    color: #25252566; /* Change the color of the disc to a desired color */
+    font-size: 15px;
+}
+
+.smalltext{
+    font-size: 12px;
+}
+
+.fields {
+    width: 220px;
+    height: 38px;
+    margin-top: 15px;
+    /* margin-left: 15px;  */
+    /* padding: 0px 10px;  */
+    margin-right: 50px;
+    gap: 10px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #000; /* Adds a border around the select box */
+    background-color: #fff; /* Optional: Adds background color */
+    font-size: 16px;
+    color: #1B424C;
+}
+
+
+.fields2 {
+    width: 260px;
+    height: 38px;
+    margin-top: 15px;
+    /* margin-left: 10px;  */
+    margin-right: 50px;
+    padding: 0px 10px; /* Adds padding for inner content */
+    gap: 10px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #000; /* Adds a border around the select box */
+    background-color: #fff; /* Optional: Adds background color */
+    font-size: 16px;
+    color: #1B424C;
+}
+
+
+
+.inputField {
+    width: 226px;
+    height: 29px;
+    margin-top: 70px;
+    margin-left: 33px;
+    font-size: 22px;
+    /* font-weight: 600; */
+}
+
+.fields3 {
+    width: 220px;
+    height: 38px;
+    margin-top: 15px;
+    /* margin-left: 15px;  */
+    /* padding: 0px 10px;  */
+    margin-right: 50px;
+    gap: 10px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #000; /* Adds a border around the select box */
+    background-color: #fff; /* Optional: Adds background color */
+    font-size: 16px;
+}
+
+.inputField1 {
+    width: 225px;
+    height: 29px;
+    margin-top: 130px;
+    margin-left: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.subformbox {
+    width: 582px;
+    height: 199px;
+    margin-top: 130px;
+    margin-left: 33px;
+    /* border-radius: 20px 0px 0px 0px; */
+    border-style: solid; /* Adjust border style */
+    /* border-width: 1px 0px 0px 0px;  */
+    /* border: 1px solid red; */
+}
+
+.heading3 {
+    width: 104px;
+    height: 29px;
+    /* margin-top: 152px; */
+    /* margin-left: 15px; */
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28.64px;
+    text-align: left;
+}
+
+.heading4 {
+    width: 104px;
+    height: 29px;
+    /* margin-top: 152px; */
+    /* margin-left: 15px; */
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28.64px;
+    text-align: left;
+}
+
+.validatemsg {
+    width: 312px; 
+    height: 16px; 
+    /* position: absolute;  */
+    /* top: 496px;  */
+    /* left: 36px; */
+    font-family: 'DM Sans', sans-serif; 
+    font-size: 12px; 
+    font-weight: 600;
+    line-height: 15.62px; 
+    text-align: left; 
+    /* text-underline-position: from-font;  */
+    /* text-decoration-skip-ink: none; */
+    color: #E00000CC;
+}
+
+.infomsg {
+    width: 221px; /* Width of the information message */
+    height: 16px; /* Optional: Enforces height for layout consistency */
+    margin-top: 5px;
+    font-family: 'DM Sans', sans-serif; /* Font family for the message */
+    font-size: 12px; /* Sets the font size */
+    font-weight: 600; /* Bold font weight for emphasis */
+    line-height: 15.62px; /* Spacing between lines */
+    text-align: left; /* Aligns the text to the left */
+    color: #25252580; /* Default color (optional, can be adjusted) */
+}
+
+.tandc {
+    width: 666px; /* Width of the terms and conditions text */
+    height: 18px; /* Height for layout alignment */
+    margin-left: 33px;
+    margin-top: 10px;
+    font-family: 'DM Sans', sans-serif; /* Specifies the font */
+    font-size: 14px; /* Font size for the text */
+    font-weight: 600; /* Bold font weight for emphasis */
+    line-height: 18.23px; /* Spacing between lines */
+    text-align: left; /* Aligns text to the left */
+    color: #252525; /* Default text color (adjust if needed) */
+}
+
+.content {
+    width: 666px; /* Width of the content block */
+    height: 54px; /* Height for layout alignment */
+    font-family: 'DM Sans', sans-serif; /* Specifies the font */
+    margin-top: 10px;
+    margin-left: 33px;
+    font-size: 14px; /* Font size for the content */
+    font-weight: 600; /* Bold font weight for emphasis */
+    line-height: 18.23px; /* Spacing between lines */
+    text-align: left; /* Aligns text to the left */
+    color: #252525; /* Dark gray color for the text */
+}
+
+.checkboxesdiv{
+    margin-left: 33px;
+    margin-top: 15px;
+}
+
+.checkboxes {
+    width: 16px; /* Sets the width of the checkbox */
+    height: 16px; /* Sets the height of the checkbox */
+    margin-right: 20px;
+    border-radius: 3px 0px 0px 0px; /* Applies a rounded corner to the top-left */
+    background-color: #50AC97; /* Optional: Default background color */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+}
+
+.checkboxcontent {
+    width: 345px; /* Sets the width of the text associated with the checkbox */
+    height: 18px; /* Sets the height for layout alignment */
+    font-family: 'DM Sans', sans-serif; /* Specifies the font */
+    font-size: 14px; /* Sets the font size */
+    font-weight: 600; /* Bold font weight for emphasis */
+    line-height: 18.23px; /* Spacing between lines */
+    text-align: left; /* Aligns text to the left */
+    color: #333; /* Optional: Sets a default text color */
+}
+
+.centerContent {
+    display: flex;
+    width: 150px; /* Width of the centered content */
+    height: 21px; /* Height for layout alignment */
+    font-family: 'DM Sans', sans-serif; /* Specifies the font */
+    margin-left: 280px;
+    font-size: 16px; /* Sets the font size */
+    font-weight: 700; /* Bold font weight for emphasis */
+    line-height: 20.83px; /* Spacing between lines */
+    text-align: left; /* Aligns text to the left */
+    color: #50AC97; /* Optional: Default text color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
