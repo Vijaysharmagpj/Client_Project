@@ -1,6 +1,4 @@
 .dashboard-container {
-  width: 1338px;
-  height: 559px;
   top: 157px;
   left: 51px;
 }
@@ -29,11 +27,12 @@
   background-color: #2A6877;
   color: #FFFFFF;
   border-radius: 30px;
+  margin-bottom: 80px;
 }
 
 .dashboard-header {
-  width: 844px;
-  height: 347px;
+  /* width: 844px;
+  height: 347px; */
   flex: 3.5;
 }
 
