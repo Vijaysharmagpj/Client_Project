@@ -1,0 +1,101 @@
+/* Wrapper styles for heading */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.started {
+  margin-top: 30px;
+  width: 467px;
+  height: 46px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45.57px;
+  color: #252525;
+  text-align: center;
+}
+
+/* Span-specific styles */
+.started span {
+  color: #252525;
+}
+
+/* Container for images and text */
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  /* Space between image containers */
+  margin-top: 20px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  border: 1px solid white;
+  box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual image container */
+.image-container {
+  /* position: relative;
+    text-align: center;
+    width: 144px; */
+}
+
+/* Background image styling */
+.bg-image {
+  display: block;
+  width: 144px;
+  height: 144px;
+}
+
+/* KYC image styling */
+.kyc-image {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+/* Text below images */
+.image-container p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #252525;
+}
+
+._attritubes_container {
+  margin-top: 50px;
+  min-height: 250px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-box-shadow: -12px 8px 16px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -12px 8px 16px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: -12px 8px 16px -11px rgba(0, 0, 0, 0.75);
+}
+
+.circular_bg {
+  height: 144px;
+  width: 144px;
+  background-color: #CAD1ED;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.attribute_container_col_heading {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 600px;
+}

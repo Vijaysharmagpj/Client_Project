@@ -1,0 +1,92 @@
+.dashboard-container {
+  top: 157px;
+  left: 51px;
+}
+
+.dashboard-content {
+  /* width: 826px; */
+  /* height: 549px; */
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+  top: 18px;
+}
+
+.getstart {
+  width: 140px;
+  height: 44px;
+  padding-left: 30px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-color: #2A6877;
+  color: #FFFFFF;
+  border-radius: 30px;
+  margin-bottom: 80px;
+}
+
+.dashboard-header {
+  /* width: 844px;
+  height: 347px; */
+  flex: 3.5;
+}
+
+.image-dashboard{
+  flex: 2;
+}
+
+.header-title {
+  font-family: "DM Sans";
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.header-subtitle {
+  font-family: "DM Sans";
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.header-highlight {
+  font-family: "DM Sans";
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.loan-services {
+  width: 592px;
+  height: 116px;
+}
+
+.services-description {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28.64px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #424545;
+  text-decoration: underline;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
