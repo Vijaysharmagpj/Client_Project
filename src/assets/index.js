@@ -18,7 +18,8 @@ import note from "./images/Notepad.svg"
 import thumbs from "./images/Thumbs.svg"
 import call from "./images/Contact.svg"
 import post from "./images/Post.svg"
-import bell from "./images/Bell.svg"import familyimage from "./images/familyimage.png";
+import bell from "./images/Bell.svg"
+import familyimage from "./images/familyimage.png";
 import TrustedUser from "./images/Trusted User.png";
 import month from "./images/month.png";
 import loan from "./images/loan.png";
@@ -59,7 +60,7 @@ contact,
   thumbs,
   call,
   post,
-  bell
+  bell,
   familyimage,
   TrustedUser,
   month,
