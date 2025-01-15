@@ -39,11 +39,18 @@ import incomecheck from "./images/income check.png";
 import phone from "./images/phone.svg"
 
 
+import docimage from './images/image12.png'
+import check from './images/image15.png'
+import eligible from './images/image14.png'
+import role from './images/image13.png'
 const images = {
 contact,
   prefr,
   logo,
   logo,
+  logo,
+  docimage,
+  check,
   QR,
   Link,
   playStore,
@@ -62,6 +69,8 @@ contact,
   call,
   post,
   bell,
+  eligible,
+  role,
   familyimage,
   TrustedUser,
   month,
