@@ -12,10 +12,10 @@ const Navbar = () => {
           <p className="logo-subtitle">Loan in 10 min Only</p>
         </div>
       </div>
-
-      <div className="navbar-buttons">
-        <button className="navbar-button">APPLE</button>
-        <button className="navbar-button">Local</button>
+      
+      <div className="navbar_link">
+        <img src={images?.Link} alt="link" />
+        <img src={images?.playStore} alt="play store" />
       </div>
     </div>
   );

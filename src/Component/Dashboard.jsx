@@ -25,6 +25,7 @@ const Dashboard = () => {
           to meet your financial requirements.
         </p>
       </div>
+      <button className="getstart">Get started</button>
     </div>
   );
 };
