@@ -18,12 +18,12 @@ const FormandInfo = () => {
                     <div className="sub-header1">
                         Instant Loan | 100% Digital | Collateral-Free Loan | NO CREDIT HISTORY NEED
                     </div>
-<div className="divider1Container">
-<hr className="divider1" />
+                    <div className="divider1Container">
+                        <hr className="divider1" />
 
-</div>
+                    </div>
 
-                    <div className="row1">
+                    <div className="row row-spaced">
                         <div className="box1">
                             <div className="firstheading1">
                                 <img src={images?.docimage} alt="docimage" className="img1" />
@@ -38,7 +38,7 @@ const FormandInfo = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="box1 box-tall">
+                        <div className="box2 box-tall">
                             <div className="secondheading">
                                 <img src={images?.check} alt="check" className="img2" />
                                 <div className="headName2">Who can Apply here</div>
@@ -106,14 +106,14 @@ const FormandInfo = () => {
                         </p>
                     </div>
 
-                    
+
                     <div className="selectField">
                         <span className="textstyle">Choose your location</span>
                         <div className="secondheading">
                             <select className="fields">
                                 <option selected >Choose the State</option>
                             </select>
-                            <select className="fields2">
+                            <select className="fields">
                                 <option selected >City</option>
                             </select>
                         </div>
@@ -141,7 +141,7 @@ const FormandInfo = () => {
                                 <span className="heading3">Mobile no</span>
                                 <input
                                     type="text"
-                                    className="fields2"
+                                    className="fields3"
                                     placeholder="Please enter your mobile number"
                                 />
                                 <p className="validatemsg">*We would require this information to proceed further</p>
@@ -150,17 +150,17 @@ const FormandInfo = () => {
                                 <span className="heading3">Email-ID</span>
                                 <input
                                     type="text"
-                                    className="fields2"
+                                    className="fields3"
                                     placeholder="Please enter your Email-ID"
                                 />
                             </div>
                         </div>
-                        <div className="mt-5">
+                        <div className="mt-1">
                             <span className="heading3">Referral Code - Optional</span>
                             <div>
-                            <input
+                                <input
                                     type="text"
-                                    className="fields2"
+                                    className="fields3"
                                     placeholder="Please enter the referral code"
                                 />
                             </div>
@@ -168,12 +168,20 @@ const FormandInfo = () => {
                         </div>
 
                     </div>
-
+                    <div className="allcontent">
                     <div className="tandc">*If you have an application in progress you can continue from where you left off</div>
                     <div className="content">By proceeding. you hereby consent to our communication via Call/ SMS/ Whatsapp regarding your loan application. You also authorize the bank and its representatives to reach you for any product/offers via bank's authorized channels.</div>
-                    <div className="checkboxesdiv"><input type="checkbox" className="checkboxes"/><span className="checkboxcontent">I have read the following T&C and accept the same.</span></div>
-                    <div  className="checkboxesdiv"><input type="checkbox" className="checkboxes" /><span className="checkboxcontent">I submit my Aadhaar and Voluntary give me my Consent.</span></div>
-
+                    <div className="checkboxesdiv"><input type="checkbox" className="checkboxes" /><span className="checkboxcontent">I have read the following T&C and accept the same.</span></div>
+                    <div className="checkboxesdiv">
+                        <div>
+                        <input type="checkbox" className="checkboxes" />
+                        <span className="checkboxcontent">I submit my Aadhaar and Voluntary give me my Consent.</span>
+                        </div>
+                        <div>
+                            <button className="checkboxesdiv-button">Next</button>
+                        </div>
+                    </div>
+                    </div>
 
                 </div>
             </div>
