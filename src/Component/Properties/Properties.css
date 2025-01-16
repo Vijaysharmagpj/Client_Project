@@ -5,6 +5,8 @@
     font-size: 35px;
     font-weight: 700;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 ._properties_metadat_row_{
     margin: 20px 0px 50px;
@@ -23,10 +25,12 @@
 ._properties_img{
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 .meta_data_title{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 ._properties_metadata_col{
     display: flex;

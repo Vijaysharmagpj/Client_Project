@@ -7,7 +7,7 @@
 .story-title {
   width: 268px;
   height: 46px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   width: inherit;
   display: flex;
   justify-content: center;
@@ -20,6 +20,7 @@
   font-weight: 700;
   line-height: 45.57px;
   text-align: left;
+  margin-top: 30px;
 }
 
 .story-container {
@@ -119,7 +120,7 @@
   width: inherit;
   display: flex;
   justify-content: center;
-  color: #e00000;
+  color: #F3AA00;
   font-family: "DM Sans";
   font-size: 35px;
   font-weight: 600;

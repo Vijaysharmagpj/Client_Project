@@ -80,7 +80,7 @@
 .divider1 {
     /* width: 384px; */
     width: 50%;
-    margin-top: 45px;
+    margin-top: 35px;
     /* margin-left: 176px; */
     border-top: 1px solid black; /* Adds a 1px black border at the top */
 }
@@ -93,7 +93,8 @@
 .row1 {
     display: flex;
     gap: 80px;
-    margin-top: 81px;
+    margin-top: 60px;
+    /* border:1px solid red */
 }
 
 .box1 {
@@ -101,22 +102,32 @@
     height: 183px;
     /* position: relative; */
     margin-top: 0px; 
-    margin-left: 9px;
+    /* margin-left: 9px; */
+    /* border: 2px solid green; */
+}
+.box2 {
+    /* width: 245px; */
+    height: 183px;
+    /* position: relative; */
+    margin-top: 0px; 
+    /* margin-left: 9px; */
     /* border: 1px solid red; */
 }
 
 .box-tall {
     width: 290px;
-    height: 217px;
+    height: 200px;
     margin-left: 0;
+    /* border:1px solid red */
     /* border: 1px solid red; */
 }
 
 .row-spaced{
     display: flex;
     gap: 20px;
-    margin-top: 30px;
-    margin-left: 9px;
+    margin-top: 25px;
+    /* border:1px solid blue; */
+    /* margin-left: 9px; */
 }
 
 .box1 {
@@ -124,7 +135,8 @@
     height: 196px;
     /* position: relative; */
     margin-top: 0px; 
-    margin-left: 1px;
+    margin-left: 9px;
+    /* border:1px solid black */
     /* border: 1px solid red; */
 }
 
@@ -158,7 +170,7 @@
 .list1 {
     width: 204px;
     height: 132px;
-    margin-top: 20px;
+    margin-top: 15px;
     line-height: 2;
     font-size: 14px;
 }
@@ -188,7 +200,7 @@
     font-size: 14px;
     /* width: 204px;
     height: 132px; */
-    margin-top: 20px;
+    margin-top: 15px;
     line-height: 2;
 }
 
@@ -230,11 +242,13 @@
 }
 
 .selectField {
-    width: 225px;
-    height: 29px;
-    margin-top: 17px;
+    /* width: 225px;
+    height: 29px; */
+    flex: 1;
+    margin-top: 20px;
     margin-left: 33px;
     font-size: 22px;
+    /* border:1px solid red; */
     /* font-weight: 600; */
 }
 
@@ -286,31 +300,47 @@ ul li::marker {
     font-size: 16px;
     color: #1B424C;
 }
-
-
-
-.inputField {
-    width: 226px;
-    height: 29px;
-    margin-top: 70px;
-    margin-left: 33px;
-    font-size: 22px;
-    /* font-weight: 600; */
-}
-
 .fields3 {
-    width: 220px;
+    width: 260px;
     height: 38px;
-    margin-top: 15px;
-    /* margin-left: 15px;  */
-    /* padding: 0px 10px;  */
+    margin-top: 8px;
+    /* margin-left: 10px;  */
     margin-right: 50px;
+    padding: 0px 10px; /* Adds padding for inner content */
     gap: 10px;
     border-radius: 20px 20px 20px 20px;
     border: 1px solid #000; /* Adds a border around the select box */
     background-color: #fff; /* Optional: Adds background color */
     font-size: 16px;
+    color: #1B424C;
 }
+
+
+
+.inputField {
+    /* width: 226px; */
+    /* height: 29px; */
+    flex:1;
+    margin-top: 20px;
+    margin-left: 33px;
+    font-size: 22px;
+    /* border: 1px solid black; */
+    /* font-weight: 600; */
+}
+
+/* .fields3 {
+    width: 220px;
+    height: 38px;
+    margin-top: 15px;
+    margin-left: 15px; 
+    padding: 0px 10px; 
+    margin-right: 50px;
+    gap: 10px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #000; 
+    background-color: #fff;
+    font-size: 16px;
+} */
 
 .inputField1 {
     width: 225px;
@@ -322,9 +352,10 @@ ul li::marker {
 }
 
 .subformbox {
-    width: 582px;
-    height: 199px;
-    margin-top: 130px;
+    /* width: 582px;
+    height: 199px; */
+    flex:1;
+    margin-top: 20px;
     margin-left: 33px;
     /* border-radius: 20px 0px 0px 0px; */
     border-style: solid; /* Adjust border style */
@@ -372,6 +403,12 @@ ul li::marker {
     color: #E00000CC;
 }
 
+.allcontent{
+    flex: 1;
+    margin-bottom: 5px;
+    /* border:1px solid red; */
+}
+
 .infomsg {
 
     font-family: 'DM Sans', sans-serif; /* Font family for the message */
@@ -385,31 +422,44 @@ ul li::marker {
 .tandc {
     width: 666px; /* Width of the terms and conditions text */
     margin-left: 33px;
-    margin-top: 25px;
+    margin-top: 10px;
     font-family: 'DM Sans', sans-serif; /* Specifies the font */
     font-size: 14px; /* Font size for the text */
     font-weight: 600; /* Bold font weight for emphasis */
     line-height: 18.23px; /* Spacing between lines */
     text-align: left; /* Aligns text to the left */
     color: #252525; /* Default text color (adjust if needed) */
+    /* border: 1px solid red; */
 }
 
 .content {
     width: 666px; /* Width of the content block */
     height: 54px; /* Height for layout alignment */
     font-family: 'DM Sans', sans-serif; /* Specifies the font */
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 33px;
     font-size: 14px; /* Font size for the content */
     font-weight: 600; /* Bold font weight for emphasis */
-    line-height: 18.23px; /* Spacing between lines */
+    line-height: 18.23px; 
     text-align: left; /* Aligns text to the left */
     color: #252525; /* Dark gray color for the text */
+    /* border:1px solid blue */
 }
 
 .checkboxesdiv{
     margin-left: 33px;
-    margin-top: 15px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.checkboxesdiv-button{
+    margin-left: 10vw;
+    padding: 4px;
+    background-color: #1B424C;
+    color: white;
+    width: 60px;
+    border-radius: 30px;
+    margin-bottom: 5px;
 }
 
 .checkboxes {
@@ -440,9 +490,15 @@ ul li::marker {
     margin-left: 280px;
     font-size: 16px; /* Sets the font size */
     font-weight: 700; /* Bold font weight for emphasis */
-    line-height: 20.83px; /* Spacing between lines */
+    /* line-height: 20.83px;  */
     text-align: left; /* Aligns text to the left */
     color: #50AC97; /* Optional: Default text color */
+}
+
+
+.buttonStyle{
+    display: flex;
+    align-items: flex-end;
 }
 
 
