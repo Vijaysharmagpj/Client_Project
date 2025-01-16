@@ -43,8 +43,8 @@
 .footer_contnet {
     gap: 5px;
     color: rgb(197, 197, 197);
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 500;
     display: flex;
     align-items: flex-start;
 }
