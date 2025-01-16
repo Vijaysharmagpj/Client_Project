@@ -1,120 +1,123 @@
 /* Wrapper styling */
 .wrapper-docu {
-    width: 100%; /* Ensures it spans the full container width */
-    /* height: 46px;  */
-    display: flex; /* Flex for alignment */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    margin: 60px auto 20px; /* Adds spacing: top, auto center, bottom */
-  }
-  
-  /* Title text styling */
-  .title {
-    font-family: "DM Sans"; /* Use DM Sans */
-    font-size: 35px; /* Large font size */
-    font-weight: 700; /* Bold text */
-    line-height: 45.57px; /* Line height for text */
-    text-align: center; /* Center text */
-    text-underline-position: from-font; /* Underline positioning */
-    text-decoration-skip-ink: none; /* Proper decoration */
-    color: #000000; /* Black color */
-  }
-  
-  /* Container for steps */
-  .container-docu {
-    display: flex;
-    justify-content: center; /* Center steps container */
-    padding: 20px; /* Add some padding */
-  }
-  
-  /* Steps container */
-  .steps-container {
-    display: flex; /* Flex layout for steps */
-    flex-wrap: wrap; /* Wrap to the next row for smaller screens */
-    justify-content: center; /* Center content */
-    gap: 20px; /* Spacing between steps */
-  }
-  
-  /* Individual step */
-  .step {
-    width: 275px; /* Fixed width */
-    height: 353px; /* Fixed height */
-    display: flex; /* Flex for layout */
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center horizontally */
-    text-align: center; /* Center text alignment */
-    padding: 20px 15px; /* Adjust padding for even edge space */
-    gap: 15px; /* Spacing between children elements */
-    border-radius: 188px; /* Rounded corners */
-    background: linear-gradient(180deg, rgba(195, 255, 241, 0.5) 0%, #FFFFFF 100%);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
-  }
+  width: 100%; /* Ensures it spans the full container width */
+  /* height: 46px;  */
+  display: flex; /* Flex for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin: 60px auto 20px; /* Adds spacing: top, auto center, bottom */
+}
 
-  .step-bottom {
-    width: 275px;
-    height: 353px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px 15px;
-    gap: 15px;
-    border-radius: 188px; /* Rounded corners */
-    background: linear-gradient(0deg, rgba(195, 255, 241, 0.5) 0%, #FFFFFF 100%);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  }
-  
-  /* Circle for icons */
-  .circle {
-    width: 80px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%; /* Fully circular */
-    background-color: #e0f7f1;
-    margin-bottom: 10px;
-  }
-  
-  /* Icon inside the circle */
-  .icon {
-    width: 40px;
-    height: 40px;
-  }
-  
-  /* Step title */
-  .step h3 {
-    font-family: "DM Sans";
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    color: #252525; /* Dark gray */
-  }
-  
-  /* Step description */
-  .step p {
-    font-family: "DM Sans";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px; /* Line height for readability */
-    color: #4a514f; /* Subtle gray */
-  }
+/* Title text styling */
+.title {
+  font-family: "DM Sans"; /* Use DM Sans */
+  font-size: 35px; /* Large font size */
+  font-weight: 700; /* Bold text */
+  line-height: 45.57px; /* Line height for text */
+  text-align: center; /* Center text */
+  text-underline-position: from-font; /* Underline positioning */
+  text-decoration-skip-ink: none; /* Proper decoration */
+  color: #000000; /* Black color */
+}
 
-    /* Step title */
-    .step-bottom h3 {
-      font-family: "DM Sans";
-      font-size: 22px;
-      font-weight: 700;
-      margin-bottom: 10px;
-      color: #252525; /* Dark gray */
-    }
-    
-    /* Step description */
-    .step-bottom p {
-      font-family: "DM Sans";
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 24px; /* Line height for readability */
-      color: #4a514f; /* Subtle gray */
-    }
-  
+/* Container for steps */
+.container-docu {
+  display: flex;
+  justify-content: center; /* Center steps container */
+  padding: 20px; /* Add some padding */
+}
+
+/* Steps container */
+.steps-container {
+  display: flex; /* Flex layout for steps */
+  flex-wrap: wrap; /* Wrap to the next row for smaller screens */
+  justify-content: center; /* Center content */
+  gap: 50px; /* Spacing between steps */
+}
+
+/* Individual step */
+.step {
+  width: 275px; /* Fixed width */
+  height: 353px; /* Fixed height */
+  display: flex; /* Flex for layout */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center text alignment */
+  padding: 20px 15px; /* Adjust padding for even edge space */
+  gap: 15px; /* Spacing between children elements */
+  border-radius: 188px; /* Rounded corners */
+  background: linear-gradient(
+    180deg,
+    rgba(195, 255, 241, 0.5) 0%,
+    #ffffff 100%
+  );
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.step-bottom {
+  width: 275px;
+  height: 353px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px 15px;
+  gap: 15px;
+  border-radius: 188px; /* Rounded corners */
+  background: linear-gradient(0deg, rgba(195, 255, 241, 0.5) 0%, #ffffff 100%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Circle for icons */
+.circle {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* Fully circular */
+  background-color: #e0f7f1;
+  margin-bottom: 10px;
+}
+
+/* Icon inside the circle */
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* Step title */
+.step h3 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #252525; /* Dark gray */
+}
+
+/* Step description */
+.step p {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* Line height for readability */
+  color: #4a514f; /* Subtle gray */
+}
+
+/* Step title */
+.step-bottom h3 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #252525; /* Dark gray */
+}
+
+/* Step description */
+.step-bottom p {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* Line height for readability */
+  color: #4a514f; /* Subtle gray */
+}

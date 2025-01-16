@@ -80,7 +80,7 @@
   align-items: center;
   -webkit-box-shadow: -12px 8px 16px -11px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -12px 8px 16px -11px rgba(0, 0, 0, 0.75);
-  box-shadow: -12px 8px 16px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .circular_bg {
@@ -91,6 +91,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  margin-top: 30px
 }
 
 .attribute_container_col_heading {
@@ -98,4 +99,9 @@
   margin-top: 10px;
   font-size: 25px;
   font-weight: 600px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+.started span{
+  color: #2A6877;
 }
