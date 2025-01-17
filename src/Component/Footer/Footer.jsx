@@ -101,10 +101,10 @@ const Footer = () => {
               </div>
               <div className="_contact_meta_data">
                 <p className="footer_contnet footer_contnet_ ">
-                  9.30 AM - 9.30PM
+                  Monday to Saturday
+                  9.30 AM - 9.30PM 
                 </p>
                 <p className="footer_contnet">
-                  Monday to Saturday
                 </p>
               </div>
             </p>
