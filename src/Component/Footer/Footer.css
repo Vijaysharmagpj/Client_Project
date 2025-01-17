@@ -68,6 +68,9 @@
 .contact_image_container {
     display: flex;
     gap: 5px;
+    margin-top: 4px;
+    /* border: 1px solid red; */
+    width: 25px;
 }
 ._footer_col_left_row_{
     display: flex;
