@@ -8,7 +8,6 @@ const OurStory = () => {
       <div className="story-title">
         <p>Our Story so far</p>
       </div>
-
       <div className="wrapper">
         <div className="story-container">
           <div className="image-container">

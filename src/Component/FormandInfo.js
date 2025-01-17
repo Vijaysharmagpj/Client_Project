@@ -113,7 +113,7 @@ const FormandInfo = () => {
                             <select className="fields">
                                 <option selected >Choose the State</option>
                             </select>
-                            <select className="fields">
+                            <select className="Cityfields">
                                 <option selected >City</option>
                             </select>
                         </div>
@@ -128,7 +128,7 @@ const FormandInfo = () => {
                             <input type="text" className="fields2" placeholder="Instant Personal Loan" />
                         </div>
                         <div className="secondheading">
-                            <input type="text" className="fields2" placeholder="KYC Loan" />
+                            <input type="text" className="KYCfields2" placeholder="KYC Loan" />
                             <input type="text" className="fields2" placeholder="Instant Business Loan" />
                         </div>
                     </div>
@@ -144,7 +144,7 @@ const FormandInfo = () => {
                                     className="fields3"
                                     placeholder="Please enter your mobile number"
                                 />
-                                <p className="validatemsg">*We would require this information to proceed further</p>
+                                {/* <p className="validatemsg">*We would require this information to proceed further</p> */}
                             </div>
                             <div className="input-group">
                                 <span className="heading3">Email-ID</span>
@@ -155,7 +155,7 @@ const FormandInfo = () => {
                                 />
                             </div>
                         </div>
-                        <div className="mt-1">
+                        <div className="mt-3">
                             <span className="heading3">Referral Code - Optional</span>
                             <div>
                                 <input

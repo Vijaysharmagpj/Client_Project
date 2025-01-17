@@ -10,7 +10,7 @@ const Dashboard = () => {
       <div className="dashboard-content">
         <div className="dashboard-header">
           <p className="header-title">
-            APPLY INSTANT LOAN HERE FOR UPTO - 5 LACS NOW.
+            APPLY INSTANT LOAN HERE <p>FOR UPTO - 5 LACS NOW.</p>
           </p>
           <p> <span className="header-subtitle">
             IF YOU ARE A

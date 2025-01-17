@@ -96,13 +96,13 @@
 }
 
 /* Step description */
-.step p {
+/* .step p {
   font-family: "DM Sans";
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px; /* Line height for readability */
-  color: #4a514f; /* Subtle gray */
-}
+  line-height: 24px; 
+  color: #4a514f; 
+} */
 
 /* Step title */
 .step-bottom h3 {
@@ -114,10 +114,21 @@
 }
 
 /* Step description */
-.step-bottom p {
+/* .step-bottom p {
   font-family: "DM Sans";
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px; /* Line height for readability */
-  color: #4a514f; /* Subtle gray */
+  line-height: 24px; 
+  color: #4a514f; 
+} */
+
+
+.docContentStyle{
+  font-family: "DM Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20.83px;
+  text-align: center;
+  color: #4a514f;
 }

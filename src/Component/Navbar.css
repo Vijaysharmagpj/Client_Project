@@ -58,8 +58,9 @@
   }
   
   .navbar_link img {
-    width: auto; /* Maintain original aspect ratio */
-    height: 40px; /* Adjust height to desired size */
+    flex: 1;
+    /* width: auto; 
+    height: 40px;  */
   }
   
   

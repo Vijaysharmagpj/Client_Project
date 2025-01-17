@@ -19,7 +19,7 @@ const DocumentReq = () => {
               />
             </div>
             <h3>Photo Check</h3>
-            <p>
+            <p className="docContentStyle">
               Photo Check enables secure document upload for quick loan
               approval.
             </p>
@@ -33,7 +33,7 @@ const DocumentReq = () => {
               />
             </div>
             <h3>Identity Check</h3>
-            <p>
+            <p className="docContentStyle">
               "Identity Check" verifies personal documents for faster, secure
               loan approval.
             </p>
@@ -47,7 +47,7 @@ const DocumentReq = () => {
               />
             </div>
             <h3>KYC Check</h3>
-            <p>
+            <p className="docContentStyle">
               KYC Check verifies user identity and documents for secure loan
               processing.
             </p>
@@ -61,7 +61,7 @@ const DocumentReq = () => {
               />
             </div>
             <h3>Income Check (Bank Statement)</h3>
-            <p>
+            <p className="docContentStyle">
               Income Check verifies the user's income details to assess loan
               eligibility.
             </p>

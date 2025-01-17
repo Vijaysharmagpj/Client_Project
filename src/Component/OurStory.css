@@ -4,6 +4,8 @@
   /* align-items: flex-start; */
 }
 
+
+
 .story-title {
   width: 268px;
   height: 46px;
@@ -24,9 +26,11 @@
 }
 
 .story-container {
-  width: 558px;
-  height: 493px;
-  margin-left: 127px;
+  width: 545px;
+  height: 480px;
+  /* flex: 1; */
+  /* border: 1px solid red; */
+  /* margin-left: 127px; */
   background-color: #ffeceb;
   border-radius: 30px;
   border: 1px solid #ffeceb;
@@ -38,6 +42,7 @@
   display: flex;
   justify-content: center;
   margin-top: 53px;
+  
 }
 
 .story-number {
@@ -99,9 +104,9 @@
 /* TrustedUser */
 
 .story-container1 {
-  width: 558px;
-  height: 493px;
-  margin-left: 132px;
+  width: 545px;
+  height: 480px;
+  margin-left: 70px;
   background-color: #fffbe8;
   border-radius: 30px;
   border: 1px solid #00000033;
@@ -146,7 +151,7 @@
 .creditpe-container1 {
   width: 502px;
   height: 78px;
-  margin-top: 40px;
+  margin-top: 25px;
   margin-left: 37px;
 }
 
@@ -156,6 +161,7 @@
   font-weight: 500;
   line-height: 26.04px;
   text-align: left;
+  padding-right: 8px;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #4a514f;
@@ -175,10 +181,9 @@
 
 
 .story-container2 {
-    width: 558px;
-    height: 493px;
+  width: 545px;
+  height: 480px;
     margin-top: 35px;
-    margin-left: 127px;
     background-color: #E8FFEE;
     border-radius: 30px;
     border: 1px solid #00000033;
@@ -252,10 +257,10 @@
 
 
 .story-container3 {
-    width: 558px;
-    height: 493px;
+  width: 545px;
+  height: 480px;
     margin-top: 35px;
-    margin-left: 127px;
+    margin-left: 70px;
     background-color: #EBF6FF;
     border-radius: 30px;
     border: 1px solid #00000033;

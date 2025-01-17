@@ -1,6 +1,9 @@
 .dashboard-container {
-  top: 157px;
-  left: 51px;
+  flex:1;
+  margin-top: 12vh;
+  /* top: 157px;
+  left: 51px; */
+  /* border: 1px solid red; */
 }
 
 .dashboard-content {
@@ -34,28 +37,33 @@
 .dashboard-header {
   /* width: 844px;
   height: 347px; */
-  flex: 3.5;
+  flex: 3;
   color: #2A6877;
+  /* border: 1px solid black; */
+  /* border: 1px solid black; */
 }
 
 .image-dashboard{
   flex: 2;
+  /* border: 1px solid red; */
 }
 
 .header-title {
   font-family: "DM Sans";
-  font-size: 55px;
+  font-size: 45px;
   font-weight: 700;
-  line-height: 76px;
+  /* line-height: 76px; */
   letter-spacing: 0.5px;
   text-align: left;
   text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  /* text-decoration-skip-ink: none; */
+  /* border: 1px solid red; */
+
 }
 
 .header-subtitle {
   font-family: "DM Sans";
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 64px;
   letter-spacing: 0.5px;
