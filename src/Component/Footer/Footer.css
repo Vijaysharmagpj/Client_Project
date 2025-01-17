@@ -12,12 +12,12 @@
 }
 
 ._footer_col_mid {
-    padding: 0px 20px 0px;
+    padding: 40px 20px 0px;
     flex: 1.5;
 }
 
 ._footer_col_right {
-    padding: 0px 20px 0px;
+    padding: 40px 20px 0px;
     flex: 3;
 }
 

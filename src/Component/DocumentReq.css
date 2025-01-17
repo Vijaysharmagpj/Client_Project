@@ -76,14 +76,15 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%; /* Fully circular */
-  background-color: #e0f7f1;
+  /* background-color: #e0f7f1; */
   margin-bottom: 10px;
+  margin-top: 40px;
 }
 
 /* Icon inside the circle */
 .icon {
-  width: 40px;
-  height: 40px;
+  width: 70px;
+  height: 70px;
 }
 
 /* Step title */

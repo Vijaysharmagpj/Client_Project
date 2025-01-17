@@ -76,7 +76,7 @@ const Properties = () => {
           </div>
           <div className="_properties_metadata_col">
             <div className="_properties_img">
-              <img src={images?.phone} alt="" />
+              <img src={images?.callIcon} alt="" />
             </div>
             <div className="meta_data_title">Quick Support</div>
             <div className="_meta_properties_content">

@@ -55,7 +55,7 @@ const FormandInfo = () => {
                         </div>
                     </div>
 
-                    <div className="row row-spaced">
+                    <div className="row row-spaced1">
                         <div className="box1">
                             <div className="firstheading1">
                                 <img src={images?.eligible} alt="eligible" className="img1" />
@@ -100,7 +100,7 @@ const FormandInfo = () => {
 
                     <div className="header1">
                         <p className="header-title1">Start Your Application At</p>
-                        <p className="header-subtitle1">
+                        <p className="header-subtitle2">
                             <span className="highlight1">KREDITPE </span>
                             <span className="sub-highlight1">and get Loan in 10 minutes now </span>
                         </p>
@@ -169,18 +169,21 @@ const FormandInfo = () => {
 
                     </div>
                     <div className="allcontent">
-                    <div className="tandc">*If you have an application in progress you can continue from where you left off</div>
-                    <div className="content">By proceeding. you hereby consent to our communication via Call/ SMS/ Whatsapp regarding your loan application. You also authorize the bank and its representatives to reach you for any product/offers via bank's authorized channels.</div>
-                    <div className="checkboxesdiv"><input type="checkbox" className="checkboxes" /><span className="checkboxcontent">I have read the following T&C and accept the same.</span></div>
-                    <div className="checkboxesdiv">
-                        <div>
-                        <input type="checkbox" className="checkboxes" />
-                        <span className="checkboxcontent">I submit my Aadhaar and Voluntary give me my Consent.</span>
+                        <div className="tandc">*If you have an application in progress you can continue from where you left off</div>
+                        <div className="content">By proceeding. you hereby consent to our communication via Call/ SMS/ Whatsapp regarding your loan application. You also authorize the bank and its representatives to reach you for any product/offers via bank's authorized channels.</div>
+                        <div class="mt-5">
+                        <div className="checkboxesdiv"><input type="checkbox" className="checkboxes" /><span className="checkboxcontent">I have read the following T&C and accept the same.</span></div>
+                        <div className="checkboxesdiv">
+                            <div>
+                                <input type="checkbox" className="checkboxes" />
+                                <span className="checkboxcontent">I submit my Aadhaar and Voluntary give me my Consent.</span>
+                            </div>
+                            <div>
+                                <button className="checkboxesdiv-button">Next</button>
+                            </div>
                         </div>
-                        <div>
-                            <button className="checkboxesdiv-button">Next</button>
                         </div>
-                    </div>
+
                     </div>
 
                 </div>

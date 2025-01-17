@@ -44,6 +44,7 @@ import check from "./images/image15.png";
 import eligible from "./images/image14.png";
 import role from "./images/image13.png";
 import footerimg from "./images/footerimg.png"
+import callIcon from "./images/Vector.png"
 const images = {
   contact,
   bro,
@@ -91,7 +92,8 @@ const images = {
   identitycheck,
   kyccheck,
   incomecheck,
-  footerimg
+  footerimg,
+  callIcon
 };
 
 export default images;
