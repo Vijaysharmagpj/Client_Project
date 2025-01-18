@@ -123,12 +123,11 @@
   color: #4a514f; 
 } */
 
-
-.docContentStyle{
+.docContentStyle {
   font-family: "DM Sans";
   font-style: italic;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 20.83px;
   text-align: center;
   color: #4a514f;
