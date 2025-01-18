@@ -18,7 +18,7 @@ const Footer = () => {
             <p className="footer_contnet">
               Kreditpe Journey
             </p>
-            <p className="footer_contnet">
+            <p className="footer_contnet1">
               CEO’s Message
             </p>
           </div>
