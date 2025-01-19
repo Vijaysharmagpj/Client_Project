@@ -1,19 +1,16 @@
 .wrapper1{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .container1 {
-    /* width: 1376px; */
     flex: 1;
-    /* height: 817px; */
-    /* margin-top: 884px; */
     left: 31px;
     border-radius: 20px 0px 0px 0px;
     background-color: #FFF9DD; /* Ensure it matches the original intent */
 }
 
 .header1 {
-    /* width: 726px; */
     height: 83px;
     margin-top: 15px;
     margin-left: 15px;
@@ -21,7 +18,6 @@
 }
 
 .header-title1 {
-    /* width: 726px; */
     height: 39px;
     font-family: 'DM Sans', sans-serif; /* Ensures fallback in case DM Sans is unavailable */
     font-size: 30px;
@@ -32,26 +28,19 @@
 }
 
 .header-subtitle1 {
-    /* max-width: 726px;  */
-    /* height: auto;  */
     max-height: 43px; 
     gap: 7px; /* Adds spacing between child elements */
-    /* display: flex;  */
     align-items: center; /* Optional, aligns content vertically */
 }
 
 .header-subtitle2 {
-    /* max-width: 726px;  */
-    /* height: auto;  */
     max-height: 43px; 
     gap: 7px; /* Adds spacing between child elements */
-    /* display: flex;  */
     align-items: center; /* Optional, aligns content vertically */
     margin-left: 30px;
 }
 
 .highlight1 {
-    /* width: 155px; */
     height: 43px;
     font-family: 'DM Sans', sans-serif; /* Includes fallback */
     font-size: 33px;
@@ -63,13 +52,11 @@
 }
 
 .sub-highlight1 {
-    /* width: 564px; */
     height: 39px;
     font-size: 30px;
     font-weight: 600;
 }
 .new-highlight1{
-    /* width: 564px; */
     height: 39px;
     font-size: 30px;
     font-weight: 600;
@@ -77,7 +64,6 @@
 }
 
 .sub-header1 {
-    /* width: 530px; */
     height: 20px;
     margin-top: 20px;
     margin-left: 78px;
@@ -88,10 +74,8 @@
 }
 
 .divider1 {
-    /* width: 384px; */
     width: 50%;
     margin-top: 35px;
-    /* margin-left: 176px; */
     border-top: 1px solid black; /* Adds a 1px black border at the top */
 }
 
@@ -104,64 +88,56 @@
     display: flex;
     gap: 80px;
     margin-top: 60px;
-    /* border:1px solid red */
 }
 
 .box1 {
-    /* width: 245px; */
     height: 183px;
-    /* position: relative; */
     margin-top: 0px; 
-    /* margin-left: 9px; */
-    /* border: 2px solid green; */
 }
 .box2 {
-    /* width: 245px; */
     height: 183px;
-    /* position: relative; */
     margin-top: 0px; 
-    /* margin-left: 9px; */
-    /* border: 1px solid red; */
 }
 
 .box-tall {
-    width: 290px;
+    /* width: 290px; */
     height: 200px;
     margin-left: 0;
-    /* border:1px solid red */
-    /* border: 1px solid red; */
 }
 
 .row-spaced{
     display: flex;
     gap: 20px;
     margin-top: 22px;
-    /* border:1px solid blue; */
-    /* margin-left: 9px; */
+    flex-wrap: wrap;
 }
 .row-spaced1{
     display: flex;
     gap: 20px;
     margin-top: 60px;
-    /* border:1px solid blue; */
-    /* margin-left: 9px; */
+    flex-wrap: wrap;
 }
 
 .box1 {
-    width: 310px;
+    /* width: 310px; */
+    /* flex: 0; */
     height: 196px;
-    /* position: relative; */
     margin-top: 0px; 
     margin-left: 9px;
-    /* border:1px solid black */
     /* border: 1px solid red; */
 }
 
+.doc_box1{
+    height: 196px;
+    margin-top: 0px; 
+    margin-left: 9px;
+    margin-right: 75px;
+}
+
 .box-tall1 {
-    width: 322px;
+    /* width: 322px; */
     height: 267px;
     margin-left: 0;
-    /* border: 1px solid red; */
 }
 
 .firstheading1{
@@ -174,7 +150,7 @@
 }
 
 .headName1 {
-    width: 203px;
+    /* width: 203px; */
     height: 26px;
     margin-left: 23px;
     font-family: 'DM Sans', sans-serif;
@@ -185,7 +161,7 @@
 }
 
 .list1 {
-    width: 204px;
+    /* width: 204px; */
     height: 132px;
     margin-top: 15px;
     line-height: 2;
@@ -195,6 +171,8 @@
 
 .secondheading{
     display: flex;
+    /* flex-wrap: wrap; */
+    /* flex: wrap; */
 }
 
 .img2 {
@@ -203,7 +181,7 @@
 }
 
 .headName2 {
-    width: 195px;
+    /* width: 195px; */
     height: 26px;
     margin-left: 23px;
     font-family: 'DM Sans', sans-serif;
@@ -222,7 +200,7 @@
 }
 
 .headName3 {
-    width: 230px;
+    /* width: 230px; */
     height: 26px;
     margin-left: 23px;
     font-family: 'DM Sans', sans-serif;
@@ -233,7 +211,7 @@
 }
 
 .headName4 {
-    width: 230px;
+    /* width: 230px; */
     height: 26px;
     margin-left: 23px;
     font-family: 'DM Sans', sans-serif;
@@ -244,29 +222,21 @@
 }
 
 .sidebox1 {
-    /* width: 703px; */
     flex: 1;
-    /* height: 817px; */
-    /* position: absolute; */
-    /* margin-top: 884px; */
     margin-left: -15px;
-    /* margin-left: 705px; */
     border-radius: 20px 0px 0px 0px;
-    /* border-left: 1px solid #000; */
     background-color: #DEFEF6;
-    /* position: absolute; */
-    z-index: 0; /* Applies a left border */
+    z-index: 0; 
 }
 
 .selectField {
-    /* width: 225px;
-    height: 29px; */
+
     flex: 1;
     margin-top: 20px;
     margin-left: 33px;
     font-size: 22px;
-    /* border:1px solid red; */
-    /* font-weight: 600; */
+    flex-wrap: wrap;
+
 }
 
 .textstyle{
@@ -288,8 +258,9 @@ ul li::marker {
 }
 
 .fields {
-    width: 220px;
-    height: 38px;
+    /* width: 220px; */
+    /* height: 38px; */
+    padding-right: 50px;
     margin-top: 15px;
     padding-left: 10px;
     /* margin-left: 15px;  */
@@ -303,10 +274,11 @@ ul li::marker {
 }
 
 .Cityfields {
-    width: 170px;
+    /* width: 170px; */
     height: 38px;
     margin-top: 15px;
     padding-left: 20px;
+    padding-right: 70px;
     /* margin-left: 15px;  */
     /* padding: 0px 10px;  */
     margin-right: 50px;
@@ -320,11 +292,12 @@ ul li::marker {
 
 
 .fields2 {
-    width: 260px;
+    /* width: 260px; */
     height: 38px;
     margin-top: 15px;
     /* margin-left: 10px;  */
-    margin-right: 50px;
+    padding-right: 50px;
+    margin-right: 90px;
     padding-left: 25px;
     gap: 10px;
     border-radius: 20px 20px 20px 20px;
@@ -336,12 +309,12 @@ ul li::marker {
 
 
 .KYCfields2 {
-    width: 260px;
-    height: 38px;
+    /* width: 260px; */
+    /* height: 38px; */
     margin-top: 15px;
     /* margin-left: 10px;  */
-    margin-right: 50px;
-    padding-left: 13%;
+    margin-right: 90px;
+    padding-left: 11%;  
     gap: 10px;
     border-radius: 20px 20px 20px 20px;
     border: 1px solid #000; /* Adds a border around the select box */
@@ -352,9 +325,10 @@ ul li::marker {
 
 
 .fields3 {
-    width: 260px;
+    width: 36vh;
     height: 38px;
     margin-top: 8px;
+    /* padding-right: 80px; */
     /* margin-left: 10px;  */
     margin-right: 50px;
     padding: 0px 10px; /* Adds padding for inner content */
@@ -375,26 +349,14 @@ ul li::marker {
     margin-top: 20px;
     margin-left: 33px;
     font-size: 22px;
+    flex-wrap: wrap;
     /* border: 1px solid black; */
     /* font-weight: 600; */
 }
 
-/* .fields3 {
-    width: 220px;
-    height: 38px;
-    margin-top: 15px;
-    margin-left: 15px; 
-    padding: 0px 10px; 
-    margin-right: 50px;
-    gap: 10px;
-    border-radius: 20px 20px 20px 20px;
-    border: 1px solid #000; 
-    background-color: #fff;
-    font-size: 16px;
-} */
 
 .inputField1 {
-    width: 225px;
+    /* width: 225px; */
     height: 29px;
     margin-top: 130px;
     margin-left: 15px;
@@ -415,7 +377,7 @@ ul li::marker {
 }
 
 .heading3 {
-    width: 104px;
+    /* width: 104px; */
     height: 29px;
     /* margin-top: 152px; */
     /* margin-left: 15px; */
@@ -427,7 +389,7 @@ ul li::marker {
 }
 
 .heading4 {
-    width: 104px;
+    /* width: 104px; */
     height: 29px;
     /* margin-top: 152px; */
     /* margin-left: 15px; */
@@ -439,7 +401,7 @@ ul li::marker {
 }
 
 .validatemsg {
-    width: 312px; 
+    /* width: 312px;  */
     height: 16px; 
     /* position: absolute;  */
     /* top: 496px;  */
@@ -472,7 +434,7 @@ ul li::marker {
 }
 
 .tandc {
-    width: 666px; /* Width of the terms and conditions text */
+    /* width: 666px;  */
     margin-left: 33px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -486,9 +448,10 @@ ul li::marker {
 }
 
 .content {
-    width: 666px; /* Width of the content block */
+    /* width: 666px;     */
     height: 54px; /* Height for layout alignment */
     font-family: 'DM Sans', sans-serif; /* Specifies the font */
+    padding-right: 10px;
     margin-top: 5px;
     margin-left: 33px;
     font-size: 14px; /* Font size for the content */
@@ -526,33 +489,716 @@ ul li::marker {
 }
 
 .checkboxcontent {
-    width: 345px; /* Sets the width of the text associated with the checkbox */
-    height: 18px; /* Sets the height for layout alignment */
-    font-family: 'DM Sans', sans-serif; /* Specifies the font */
-    font-size: 14px; /* Sets the font size */
-    font-weight: 600; /* Bold font weight for emphasis */
-    line-height: 18.23px; /* Spacing between lines */
-    text-align: left; /* Aligns text to the left */
-    color: #333; /* Optional: Sets a default text color */
+    height: 18px; 
+    font-family: 'DM Sans', sans-serif; 
+    font-size: 14px;
+    font-weight: 600; 
+    line-height: 18.23px; 
+    text-align: left; 
+    color: #333; 
 }
 
 .centerContent {
     display: flex;
-    width: 150px; /* Width of the centered content */
-    height: 21px; /* Height for layout alignment */
-    font-family: 'DM Sans', sans-serif; /* Specifies the font */
+    height: 21px; 
+    font-family: 'DM Sans', sans-serif; 
     margin-left: 280px;
-    font-size: 16px; /* Sets the font size */
-    font-weight: 700; /* Bold font weight for emphasis */
-    /* line-height: 20.83px;  */
-    text-align: left; /* Aligns text to the left */
-    color: #50AC97; /* Optional: Default text color */
+    font-size: 16px; 
+    font-weight: 700; 
+    text-align: left; 
+    color: #50AC97; 
 }
 
 
 .buttonStyle{
     display: flex;
     align-items: flex-end;
+}
+
+
+
+/* media query */
+
+
+@media (max-width: 460px) {
+
+    .body{
+        margin:0px;
+        padding: 0px;
+    }
+
+    .container1 {
+        flex: 1;
+        background-color: #FFF9DD; 
+    }
+    
+    .header1 {
+        height: 83px;
+        margin-top: 10px;
+        margin-left: 10px;
+        gap: 1px;
+    }
+    
+    .header-title1 {
+        height: 14px;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 15px;   
+        font-weight: 600;
+        line-height: 17.06px;
+        text-align: center;
+        text-underline-position: from-font;
+    }
+    
+    .header-subtitle1 {
+        max-height: 21px; 
+        gap: 5px; 
+        align-items: center; 
+    }
+    
+    .header-subtitle2 {
+        max-height: 21px; 
+        gap: 5px; 
+        align-items: center; 
+        margin-left: 15px;
+    }
+    
+    .highlight1 {
+        height: 43px;
+        font-family: 'DM Sans', sans-serif; 
+        font-size: 15px;
+        font-weight: 800;
+        line-height: 42.97px;
+        text-align: left;
+        text-underline-position: from-font;
+        color: #2A6877;
+    }
+    
+    .sub-highlight1 {
+        height: 39px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .new-highlight1{
+        height: 39px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #2A6877;
+    }
+
+    .sub-header1 {
+        margin-top: -25px;
+        margin-left: 15px;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 9px;
+        font-weight: 500;
+    }
+
+    .divider1 {
+        width: 50%;
+        margin-top: 15px;
+        border-top: 1px solid black; 
+    }
+
+    .list1 {
+        margin-top: 10px;
+        line-height: 1.5;
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+    .row-spaced{
+        gap: 2px;
+        margin-top: 22px;
+    }
+    .row-spaced1{
+        gap: 2px;
+        margin-top: 22px;
+    }
+
+    .box-tall {
+        margin-left: 9px;
+    }
+
+    .list2 {
+        margin-top: 10px;
+        line-height: 1.5;
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+    .secondheading{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex: wrap; */
+    }
+
+    .box-tall1 {
+        margin-left: 9px;
+    }
+
+    .centerContent {
+        display: flex;
+        height: 21px; 
+        font-family: 'DM Sans', sans-serif; 
+        margin-left: 280px;
+        font-size: 16px; 
+        font-weight: 700; 
+        text-align: left; 
+        color: #50AC97; 
+    }
+
+
+    .sidebox1 {
+        margin-top: 5px;
+            flex: 1;
+            background-color: #DEFEF6;
+    }
+
+    .selectField {
+
+        flex: 1;
+        margin-top: -15px;
+        margin-left: 33px;
+        font-size: 22px;
+        flex-wrap: wrap;
+    
+    }
+
+    .tandc{
+        font-size: 12px;
+    }
+
+
+    .content {
+
+        font-family: 'DM Sans', sans-serif;
+        padding-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 50px;
+        margin-left: 33px;
+        font-size: 12px; 
+        font-weight: 600;
+        line-height: 18.23px; 
+        text-align: left;
+        color: #252525;
+    }
+
+    .checkboxcontent {
+        font-family: 'DM Sans', sans-serif; 
+        font-size: 8px;
+        font-weight: 600; 
+        color: #333; 
+        
+    }
+
+    .checkboxesdiv-button{
+        margin-left: 11vw;
+        margin-right: 5px;
+        padding: 3px;
+        margin-top: 20px;
+        background-color: #1B424C;
+        color: white;
+        width: 40px;
+        height: 30px;
+        border-radius: 30px;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+
+    .fields {
+        padding-right: 50px;
+        margin-top: 15px;
+        padding-left: 10px;
+        margin-right: 50px;
+        gap: 10px;
+        border-radius: 20px 20px 20px 20px;
+        border: 1px solid #000; 
+        background-color: #fff; 
+        font-size: 16px;
+        color: #1B424C;
+        padding-top: 5px;
+        padding-bottom: 5px
+    }
+
+
+    .KYCfields2 {
+        margin-top: 15px;
+        margin-right: 19vh;
+        padding-left: 22%;  
+        padding-top: 5px;
+        padding-bottom: 5px;
+        gap: 10px;
+        border-radius: 20px 20px 20px 20px;
+        border: 1px solid #000; /* Adds a border around the select box */
+        background-color: #fff; /* Optional: Adds background color */
+        font-size: 16px;
+        color: #1B424C;
+    }
+
+
+}
+
+
+
+@media (min-width:460px) and (max-width:740px){
+
+
+    .container1 {
+        flex: 2;
+        background-color: #FFF9DD; 
+    }
+    
+    .header1 {
+        height: 83px;
+        /* margin-top: 10px; */
+        margin-left: 10px;
+        gap: 1px;
+    }
+    
+    .header-title1 {
+        height: 14px;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 25px;   
+        font-weight: 600;
+        line-height: 5.06px;
+        text-align: center;
+        text-underline-position: from-font;
+    }
+    
+    .header-subtitle1 {
+        max-height: 21px; 
+        gap: 5px; 
+        align-items: center; 
+        white-space: nowrap; 
+        text-overflow: ellipsis;
+    }
+    .header-subtitle2 {
+        max-height: 21px; 
+        gap: 5px; 
+        align-items: center; 
+        white-space: nowrap; 
+        text-overflow: ellipsis;
+    }
+    
+    .header-subtitle2 {
+        max-height: 21px; 
+        gap: 5px; 
+        align-items: center; 
+        margin-left: 17px;
+    }
+    
+    .highlight1 {
+        /* height: 43px; */
+        flex: 1;
+        font-family: 'DM Sans', sans-serif; 
+        font-size: 27px;
+        font-weight: 800;
+        /* line-height: 42.97px; */
+        text-align: left;
+        text-underline-position: from-font;
+        color: #2A6877;
+    }
+    
+    .sub-highlight1 {
+        height: 39px;
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+
+    .new-highlight1 {
+        height: auto;
+        font-size: 27px;
+        font-weight: 600;
+        color: #2A6877;
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis;
+    }    
+
+    .sub-header1 {
+        margin-top: -25px;
+        margin-left: 25px;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .divider1 {
+        width: 50%;
+        margin-top: 15px;
+        border-top: 1px solid black; 
+    }
+
+    
+    .box-tall {
+        margin-left: 9px;
+    }
+
+    
+    .box-tall1 {
+        margin-left: 9px;
+    }
+
+    .list1 {
+        margin-top: 10px;
+        line-height: 1.5;
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+    .list2 {
+        margin-top: 10px;
+        line-height: 1.5;
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+    
+    .secondheading{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex: wrap; */
+    }
+
+
+    .sidebox1 {
+        margin-top: 5px;
+            /* flex: 1; */
+            background-color: #DEFEF6;
+            /* white-space: nowrap; 
+            text-overflow: ellipsis; */
+            /* border: 1px solid red; */
+            padding-right: 20px;
+    }
+
+    .selectField {
+
+        flex: 1;
+        margin-top: -15px;
+        margin-left: 33px;
+        font-size: 22px;
+        flex-wrap: wrap;
+    
+    }
+
+    .heading3 {
+        height: 29px;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28.64px;
+        text-align: left;
+        margin-right: 24px;
+    }
+
+    .Referral-field{
+        margin-top: 0.75rem;
+        /* display: flex; */
+        border: 1px solid black;
+    }
+
+    .fields3 {
+        /* width: 36vh;
+        height: 38px; */
+        margin-top: 8px;
+        /* margin-right: 50px; */
+        padding-top:5px;
+        padding-bottom: 5px; /* Adds padding for inner content */
+        gap: 10px;
+        border-radius: 20px 20px 20px 20px;
+        border: 1px solid #000; /* Adds a border around the select box */
+        background-color: #fff; /* Optional: Adds background color */
+        font-size: 13px;
+        color: #1B424C;
+    }
+
+    .KYCfields2 {
+        margin-top: 15px;
+        margin-right: 19vh;
+        padding-left: 14%;  
+        padding-top: 5px;
+        padding-bottom: 5px;
+        gap: 10px;
+        border-radius: 20px 20px 20px 20px;
+        border: 1px solid #000; /* Adds a border around the select box */
+        background-color: #fff; /* Optional: Adds background color */
+        font-size: 16px;
+        color: #1B424C;
+    }
+
+
+    .allcontent{
+        flex: 1;
+        margin-bottom: 5px;
+        margin-top: 20px;
+        /* border: 1px solid red; */
+        /* border:1px solid red; */
+    }
+
+
+    .tandc{
+        font-size: 13px;
+    }
+
+
+    .content {
+
+        font-family: 'DM Sans', sans-serif;
+        padding-right: 5px;
+        margin-top: 5px;
+        margin-bottom: -2px;
+        margin-left: 33px;
+        font-size: 13px; 
+        font-weight: 600;
+        line-height: 18.23px; 
+        text-align: left;
+        color: #252525;
+    }
+
+    .checkboxesdiv{
+        /* margin-left: 33px; */
+        /* margin-top: 10px; */
+        display: flex;
+        /* border: 2px solid black; */
+    }
+
+    .checkboxcontent {
+        font-family: 'DM Sans', sans-serif; 
+        font-size: 14px;
+        font-weight: 600; 
+        color: #333; 
+        margin-right: 6px;
+        /* border: 1px solid red; */
+        
+    }
+
+    .checkboxesdiv-button{
+        background-color: #1B424C;
+        color: white;
+        width: 60px;
+        height: 37px;
+        border-radius: 30px;
+        margin-bottom: 5px;
+        font-size: 16px;
+
+    }
+
+}
+    
+
+
+@media (min-width:740px) and (max-width:1476px){
+
+
+    .header1 {
+        height: 83px;
+        margin-top: 25px;
+        margin-left: 10px;
+        gap: 1px;
+    }
+    
+    .header-title1 {
+        height: 14px;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 30px;   
+        font-weight: 600;
+        line-height: 5.06px;
+        text-align: center;
+        text-underline-position: from-font;
+    }
+    
+    .header-subtitle1 {
+        display: flex;
+        justify-content: center; /* Horizontal center */
+        align-items: center;    /* Vertical center */
+        height: 100vh; 
+        white-space: nowrap; 
+        text-overflow: ellipsis;
+        margin-top: 5px;
+    }
+
+
+    .header-subtitle2 {
+        display: flex;
+        justify-content: center; 
+        align-items: center;   
+        height: 100vh; 
+        /* white-space: nowrap; 
+        text-overflow: ellipsis; */
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis;
+        margin-top: 5px;
+    }
+    
+    
+    .highlight1 {
+        font-family: 'DM Sans', sans-serif; 
+        font-size: 30px;
+        font-weight: 800;
+        color: #2A6877;
+    }
+    
+    .sub-highlight1 {
+        height: 39px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+
+    .new-highlight1 {
+        height: auto;
+        font-size: 30px;
+        font-weight: 600;
+        color: #2A6877;
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis;
+    }    
+
+
+    .sub-header1 {
+        margin-top: 2px;
+        /* margin-left: 25px; */
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .divider1Container{
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+    }   
+
+    .divider1 {
+        width: 50%;
+        margin-top: 30px;
+        border-top: 1px solid black; 
+    }
+
+    .row-spaced{
+        gap: 2px;
+        margin-top: 22px;
+        justify-content: center;
+    }
+
+
+    .row-spaced1{
+        gap: 2px;
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    .sidebox1 {
+        margin-top: 5px;
+            flex: 1;
+            background-color: #DEFEF6;
+            /* white-space: nowrap; 
+            text-overflow: ellipsis; */
+    }
+
+    .box1 {
+        margin-left: 28px;
+        margin-right: -17px;
+    }
+
+    .centerContent {
+        display: flex;
+        justify-content: center;
+        font-family: 'DM Sans', sans-serif; 
+        font-size: 16px; 
+        font-weight: 700; 
+        color: #50AC97; 
+        margin-right: 40vh;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    .fields2 {
+        /* width: 260px; */
+        height: 38px;
+        margin-top: 15px;
+        /* margin-left: 10px;  */
+        padding-right: 50px;
+        margin-right: 10vh;
+        padding-left: 25px;
+        gap: 10px;
+        border-radius: 20px 20px 20px 20px;
+        border: 1px solid #000; /* Adds a border around the select box */
+        background-color: #fff; /* Optional: Adds background color */
+        font-size: 16px;
+        color: #1B424C;
+    }
+
+
+    .KYCfields2 {
+        /* width: 260px; */
+        /* height: 38px; */
+        margin-top: 15px;
+        /* margin-left: 10px;  */
+        margin-right: 10vh;
+        padding-left: 8%;  
+        gap: 10px;
+        border-radius: 20px 20px 20px 20px;
+        border: 1px solid #000; /* Adds a border around the select box */
+        background-color: #fff; /* Optional: Adds background color */
+        font-size: 16px;
+        color: #1B424C;
+    }
+
+    /* .secondheading{
+        display: flex;
+        flex-wrap: wrap;
+    } */
+
+    .heading3 {
+        /* width: 104px; */
+        /* height: 29px; */
+        /* margin-top: 152px; */
+        /* margin-left: 15px; */
+        font-family: 'DM Sans', sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 32.64px;
+        text-align: left;
+        margin-right: 10vh;
+    }
+
+
+    .fields3 {
+        /* width: 36vh;
+        height: 38px; */
+        margin-top: 8px;
+        /* padding-right: 80px; */
+        /* margin-left: 10px;  */
+        margin-right: 40px;
+        padding:10px 10px 10px 10px; /* Adds padding for inner content */
+        gap: 10px;
+        border-radius: 20px 20px 20px 20px;
+        border: 1px solid #000; /* Adds a border around the select box */
+        background-color: #fff; /* Optional: Adds background color */
+        font-size: 13px;
+        color: #1B424C;
+    }
+}
+
+
+@media (min-width:1476px) and (max-width:1530px){
+
+    .sidebox1 {
+        flex: 1;
+        margin-left: -15px;
+        margin-right: -74px;
+        border-radius: 20px 0px 0px 0px;
+        background-color: #DEFEF6;
+        z-index: 0; 
+    }
 }
 
 
