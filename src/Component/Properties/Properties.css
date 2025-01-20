@@ -11,6 +11,7 @@
 ._properties_metadat_row_{
     margin: 20px 0px 50px;
     display: flex;
+    flex-wrap: wrap;
     /* justify-content: space-between; */
 }
 .meta_data_title{

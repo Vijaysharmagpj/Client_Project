@@ -990,7 +990,11 @@ ul li::marker {
 
 @media (min-width:740px) and (max-width:1476px){
 
-
+    .container1 {
+        flex: 1;
+        margin-left: -38px;
+        background-color: #FFF9DD; 
+    }
     .header1 {
         height: 83px;
         margin-top: 25px;
