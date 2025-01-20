@@ -1,237 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .eligibility-container {
-    width: 1249px;
-    height: 46px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .eligibility-text {
-    font-family: "DM Sans";
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 45.57px;
-    margin-left: 120px;
-    margin-top: 90px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #252525;
-  }
+  /* width: 1249px;
+    height: 46px; */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .eligibility-wrapper {
-    width: 1249px; /* Fill the width with 1249px */
-    height: auto; /* Automatically adjust the height based on content */
-    min-height: 355px; /* Ensure the minimum height is 355px */
-    display: flex; /* Use flexbox for alignment */
-    justify-content: space-between; /* Space out the child divs */
-    gap: 64px; /* 64px gap between the divs */
-    margin-left: 70px;
-    margin-top: 90px;
-  }
-  
+.eligibility-text {
+  font-family: "DM Sans";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45.57px;
+  /* margin-left: 120px; */
+  margin-top: 90px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #252525;
+}
 
-  .custom-div {
-    width: 359px; /* Fixed width */
-    height: 355px; /* Fixed height */
-    padding: 32px 13px 32px 13px; /* Padding for top, right, bottom, and left */
-    gap: 18px; /* Space between children elements */
-    border-radius: 25px; /* Rounded corners (top-left only) */
-    background-color: #FFECEB; /* Light red color */
-  }
-  
-  .custom-div1 {
-    width: 359px; /* Fixed width */
-    height: 355px; /* Fixed height */
-    padding: 32px 13px 32px 13px; /* Padding for top, right, bottom, and left */
-    gap: 18px; /* Space between children elements */
-    border-radius: 25px; /* Rounded corners (top-left only) */
-    background-color: #FFFBE8; /* Light yellow color */
-  }
-  .custom-div2 {
-    width: 359px; /* Fixed width */
-    height: 355px; /* Fixed height */
-    padding: 32px 13px 32px 13px; /* Padding for top, right, bottom, and left */
-    gap: 18px; /* Space between children elements */
-    border-radius: 25px; /* Rounded corners (top-left only) */
-    background-color: #E8FFEE; /* Light green color */
-  }
-  
-  /* Custom div containing all elements */
+.eligibility-wrapper {
+  flex-wrap: wrap;
+  /* width: 1249px;  */
+  height: auto;
+  min-height: 355px;
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+  /* margin-left: 70px; */
+  margin-top: 90px;
+}
+
 .custom-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 10px; /* Space between the elements */
-  }
-  
-  /* Image styling */
-  .custom-div img {
-    width: 80px; /* Fixed width for the image */
-    height: 80px; /* Fixed height for the image */
-    padding: 5px 0 0 0; /* Padding on top */
-    border-radius: 10px; /* Rounded corners */
-  }
-  
-  /* Criteria text styling */
-  .criteria {
-    width: 213px; /* Fixed width */
-    height: 29px; /* Fixed height */
-    font-family: "DM Sans";
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 28.64px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #252525; /* Adjust the color as needed */
-  }
+  width: 359px;
+  height: 355px;
+  padding: 32px 13px 32px 13px;
+  gap: 18px;
+  border-radius: 25px;
+  background-color: #ffeceb;
+}
 
-  /* History text styling */
+.custom-div1 {
+  width: 359px;
+  height: 355px;
+  padding: 32px 13px 32px 13px;
+  gap: 18px;
+  border-radius: 25px;
+  background-color: #fffbe8;
+}
+.custom-div2 {
+  width: 359px;
+  height: 355px;
+  padding: 32px 13px 32px 13px;
+  gap: 18px;
+  border-radius: 25px;
+  background-color: #e8ffee;
+}
+
+.custom-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.custom-div img {
+  width: 80px;
+  height: 80px;
+  padding: 5px 0 0 0;
+  border-radius: 10px;
+}
+
+.criteria {
+  width: 213px;
+  height: 29px;
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28.64px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #252525;
+}
+
 .history {
-    width: 276px; /* Fixed width */
-    height: 29px; /* Fixed height */
-    font-family: "DM Sans";
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 28.64px;
-    text-align: center; /* Centers the text */
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #E00000; /* Red color for the text */
-  }
+  width: 276px;
+  height: 29px;
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28.64px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #e00000;
+}
 /* Nocredit text styling */
 .nocredit {
-    width: 317px; /* Fixed width */
-    height: 78px; /* Fixed height */
-    font-family: "DM Sans";
-    font-size: 20px;
-    font-style: italic; /* Italic font style */
-    font-weight: 400; /* Normal weight */
-    line-height: 26.04px;
-    text-align: center; /* Centers the text */
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #4A514F; /* Greyish color for the text */
+  width: 317px; /* Fixed width */
+  height: 78px; /* Fixed height */
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: italic; /* Italic font style */
+  font-weight: 400; /* Normal weight */
+  line-height: 26.04px;
+  text-align: center; /* Centers the text */
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4a514f; /* Greyish color for the text */
+}
+
+.custom-div1 img {
+  width: 80px; /* Fixed width */
+  height: 80px; /* Fixed height */
+  padding: 5px; /* Padding top and zero for other sides */
+  gap: 10px; /* Gap between items, though `gap` is typically used with flex containers */
+  border-radius: 10px; /* Rounded top-left corner */
+  background-color: #ffffff; /* White background color */
+  margin-left: 120px;
+}
+
+.criteria2 {
+  width: 213px; /* Fixed width */
+  height: 29px; /* Fixed height */
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28.64px;
+  text-underline-position: from-font;
+  margin-left: 60px;
+  text-decoration-skip-ink: none;
+  color: #4a514f; /* Adjust the color as needed */
+  margin-top: 10px;
+}
+
+.income {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28.64px; /* Keeps the line-height for text spacing */
+  text-align: center; /* Centers the text horizontally */
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f3aa00;
+  display: flex; /* Flexbox to center content vertically */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 5px 0; /* Optional padding for some space around the text */
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+.miniincome {
+  width: 317px; /* Fixed width */
+  height: 78px; /* Fixed height */
+  font-family: "DM Sans"; /* Font family */
+  font-size: 20px; /* Font size */
+  font-style: italic; /* Italicized text */
+  font-weight: 400; /* Font weight */
+  line-height: 26.04px; /* Line height for proper text spacing */
+  text-align: center; /* Center the text horizontally */
+  text-underline-position: from-font; /* Ensure underline is applied correctly */
+  text-decoration-skip-ink: none; /* Prevent text decoration skipping */
+  color: #4a514f; /* Text color */
+  display: flex; /* Using flexbox to center content vertically */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-top: 8px;
+}
+
+/* Image styling */
+.custom-div2 img {
+  width: 80px; /* Fixed width */
+  height: 80px; /* Fixed height */
+  padding: 5px; /* Padding to adjust position */
+  gap: 10px; /* Gap between image and text */
+  margin-left: 115px;
+  border-radius: 10px; /* Rounded corners */
+  background-color: #ffffff; /* White background */
+}
+
+/* Criteria3 text styling */
+.criteria3 {
+  width: 218px; /* Fixed width */
+  height: 29px; /* Fixed height */
+  font-family: "DM Sans"; /* Font family */
+  font-size: 22px; /* Font size */
+  font-weight: 600; /* Font weight */
+  line-height: 28.64px; /* Line height */
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  text-underline-position: from-font; /* Underline position */
+  text-decoration-skip-ink: none; /* Skip ink for text decoration */
+  color: #4a514f; /* Dark grey color */
+}
+
+/* Age18 text styling */
+.age18 {
+  width: 171px; /* Fixed width */
+  height: 29px; /* Fixed height */
+  font-family: "DM Sans"; /* Font family */
+  font-size: 22px; /* Font size */
+  font-weight: 600; /* Font weight */
+  line-height: 28.64px; /* Line height */
+  text-align: center; /* Center the text */
+  margin-left: 70px;
+  margin-top: 10px;
+  text-underline-position: from-font; /* Underline position */
+  text-decoration-skip-ink: none; /* Skip ink for text decoration */
+  color: #00a22a; /* Green color */
+}
+
+/* AgeYear text styling */
+.ageyear {
+  width: 317px; /* Fixed width */
+  height: 78px; /* Fixed height */
+  font-family: "DM Sans"; /* Font family */
+  font-size: 20px; /* Font size */
+  font-style: italic; /* Italic style */
+  font-weight: 400; /* Font weight */
+  line-height: 26.04px; /* Line height */
+  text-align: center; /* Center the text */
+  margin-top: 15px;
+  text-underline-position: from-font; /* Underline position */
+  text-decoration-skip-ink: none; /* Skip ink for text decoration */
+  color: #4a514f; /* Dark grey color */
+}
+
+@media (max-width: 331px) {
+  .eligibility-text {
+    margin-left: 5px;
   }
-    
+  .custom-div {
+    width: 240px;
+  }
+  .criteria {
+    font-size: 18px;
+    margin-left: 12vw;
+  }
+  .history {
+    font-size: 18px;
+  }
+  .nocredit {
+    font-size: 20px;
+    line-height: 26.04px;
+    width: 180px;
+  }
+
+  /* for 2nd div */
+  .custom-div1 {
+    width: 240px;
+  }
+  .criteria2 {
+    font-size: 18px;
+    margin-left: 12vw;
+  }
+  .income {
+    font-size: 18px;
+  }
+  .miniincome {
+    font-size: 20px;
+    line-height: 26.04px;
+    width: 180px;
+    margin-left: 5vw;
+  }
   .custom-div1 img {
-    width: 80px; /* Fixed width */
-    height: 80px; /* Fixed height */
-    padding: 5px; /* Padding top and zero for other sides */
-    gap: 10px; /* Gap between items, though `gap` is typically used with flex containers */
-    border-radius: 10px; /* Rounded top-left corner */
-    background-color: #FFFFFF; /* White background color */
+    margin-left: 70px;
+  }
+
+  /* for 3nd div */
+  .custom-div2 {
+    width: 240px;
+  }
+  .custom-div2 img {
+    margin-left: 70px;
+  }
+  .criteria3 {
+    font-size: 18px;
+    margin-left: 8vw;
+  }
+  .age18 {
+    font-size: 18px;
+    margin-inline: auto;
+  }
+  .ageyear {
+    font-size: 20px;
+    line-height: 26.04px;
+    width: 180px;
+    margin-left: 5vw;
+  }
+}
+
+@media (min-width: 331px) and (max-width: 444px) {
+  .eligibility-text {
+    margin-left: 5px;
+  }
+  .custom-div {
+    width: 358px;
+  }
+  .criteria {
+    font-size: 18px;
+    margin-left: 12vw;
+  }
+  .history {
+    font-size: 18px;
+  }
+  .nocredit {
+    font-size: 20px;
+    line-height: 26.04px;
+    width: 180px;
+  }
+
+  /* for 2nd div */
+  .custom-div1 {
+    width: 358px;
+  }
+  .criteria2 {
+    font-size: 18px;
+    margin-left: 20vw;
+  }
+  .income {
+    font-size: 18px;
+  }
+  .miniincome {
+    font-size: 20px;
+    line-height: 26.04px;
+    width: 180px;
+    margin-left: 18vw;
+  }
+  .custom-div1 img {
     margin-left: 120px;
   }
-  
-  .criteria2 {
-    width: 213px; /* Fixed width */
-    height: 29px; /* Fixed height */
-    font-family: "DM Sans";
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 28.64px;
-    text-underline-position: from-font;
-    margin-left: 60px;
-    text-decoration-skip-ink: none;
-    color: #4A514F; /* Adjust the color as needed */
-    margin-top: 10px;
-  }
 
-  .income {
-    width: 288px; /* Fixed width */
-    font-family: "DM Sans";
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 28.64px; /* Keeps the line-height for text spacing */
-    text-align: center; /* Centers the text horizontally */
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #F3AA00; 
-    display: flex; /* Flexbox to center content vertically */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    padding: 5px 0; /* Optional padding for some space around the text */
-    margin-left: 20px;
-    margin-top: 8px;
+  /* for 3rd div */
+  .custom-div2 {
+    width: 358px;
   }
-  
-  .miniincome {
-    width: 317px; /* Fixed width */
-    height: 78px; /* Fixed height */
-    font-family: "DM Sans"; /* Font family */
-    font-size: 20px; /* Font size */
-    font-style: italic; /* Italicized text */
-    font-weight: 400; /* Font weight */
-    line-height: 26.04px; /* Line height for proper text spacing */
-    text-align: center; /* Center the text horizontally */
-    text-underline-position: from-font; /* Ensure underline is applied correctly */
-    text-decoration-skip-ink: none; /* Prevent text decoration skipping */
-    color: #4A514F; /* Text color */
-    display: flex; /* Using flexbox to center content vertically */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    margin-top: 8px;
+  .custom-div2 img {
+    margin-left: 120px;
   }
-  
-
-  /* Image styling */
-.custom-div2 img {
-    width: 80px; /* Fixed width */
-    height: 80px; /* Fixed height */
-    padding: 5px; /* Padding to adjust position */
-    gap: 10px; /* Gap between image and text */
-    margin-left: 115px;
-    border-radius: 10px; /* Rounded corners */
-    background-color: #FFFFFF; /* White background */
-  }
-  
-  /* Criteria3 text styling */
   .criteria3 {
-    width: 218px; /* Fixed width */
-    height: 29px; /* Fixed height */
-    font-family: "DM Sans"; /* Font family */
-    font-size: 22px; /* Font size */
-    font-weight: 600; /* Font weight */
-    line-height: 28.64px; /* Line height */
-    text-align: left; 
-    margin-left: 50px;
-    margin-top: 20px;
-    text-underline-position: from-font; /* Underline position */
-    text-decoration-skip-ink: none; /* Skip ink for text decoration */
-    color: #4A514F; /* Dark grey color */
+    font-size: 18px;
+    margin-left: 18vw;
   }
-  
-  /* Age18 text styling */
   .age18 {
-    width: 171px; /* Fixed width */
-    height: 29px; /* Fixed height */
-    font-family: "DM Sans"; /* Font family */
-    font-size: 22px; /* Font size */
-    font-weight: 600; /* Font weight */
-    line-height: 28.64px; /* Line height */
-    text-align: center; /* Center the text */
-    margin-left: 70px;
-    margin-top: 10px;
-    text-underline-position: from-font; /* Underline position */
-    text-decoration-skip-ink: none; /* Skip ink for text decoration */
-    color: #00A22A; /* Green color */
+    font-size: 18px;
+    margin-inline: auto;
   }
-  
-  /* AgeYear text styling */
   .ageyear {
-    width: 317px; /* Fixed width */
-    height: 78px; /* Fixed height */
-    font-family: "DM Sans"; /* Font family */
-    font-size: 20px; /* Font size */
-    font-style: italic; /* Italic style */
-    font-weight: 400; /* Font weight */
-    line-height: 26.04px; /* Line height */
-    text-align: center; /* Center the text */
-    margin-top: 15px;
-    text-underline-position: from-font; /* Underline position */
-    text-decoration-skip-ink: none; /* Skip ink for text decoration */
-    color: #4A514F; /* Dark grey color */
+    font-size: 20px;
+    line-height: 26.04px;
+    width: 180px;
+    margin-left: 18vw;
   }
+}
+
+@media (min-width:767px) and (max-width:769px){
+  .custom-div1 {
+    width: 700px;
+  }
+  .criteria2 {
+    font-size: 22px;
+    margin-left: 30vw;
+  }
+  .miniincome {
+    font-size: 20px;
+    line-height: 26.04px;
+    margin-left: 22vw;
+  }
+  .custom-div1 img {
+    margin-left: 35vw;
+  }
+
+
+  .custom-div {
+    width: 700px;
+  }
+  .custom-div2 {
+    width: 700px;
+  }
+  .criteria3 {
+    font-size: 22px;
+    margin-left: 30vw;
+  }
+  .age18 {
+    font-size: 20px;
+    line-height: 26.04px;
+    margin-left: 32vw;
+  }
+  .ageyear {
+    font-size: 20px;
+    line-height: 26.04px;
+    margin-left: 22vw;
+  }
+  .custom-div2 img {
+    margin-left: 35vw;
+  }
+}
+
