@@ -35,7 +35,17 @@
   /* margin-left: 70px; */
   margin-top: 90px;
 }
-
+@media screen and (max-width:460px) {
+  .eligibility-wrapper {
+  flex-wrap: wrap;
+    height: auto;
+    min-height: 355px;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    margin-top: 90px;
+  }
+}
 .custom-div {
   width: 359px;
   height: 355px;

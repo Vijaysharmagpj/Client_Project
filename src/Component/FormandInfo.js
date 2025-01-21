@@ -89,8 +89,12 @@ const FormandInfo = () => {
                     </div>
 
                     <div className="centerContent">
+                        <div></div>
+                        <div style={{display:"flex"}}>
                         <img src={images?.logo} alt="logo" className="img2 mr-2" />
                         <p>Banking For All</p>
+                        </div>
+                       
                     </div>
                 </div>
 

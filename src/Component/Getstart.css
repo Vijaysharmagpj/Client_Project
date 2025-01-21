@@ -6,6 +6,7 @@
   margin-bottom: 20px;
 }
 
+
 .started {
   margin-top: 30px;
   width: 467px;
@@ -115,12 +116,12 @@
     border-radius: 20px;
     -webkit-box-shadow: -12px 8px 16px -11px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -12px 8px 16px -11px rgba(0, 0, 0, 0.75);
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: none;
     align-items: center; 
     white-space: nowrap; 
     text-overflow: ellipsis;
   }
-  .wrapper {
-    margin-bottom: 90px;
-  }
+ .wrapper{
+  margin-bottom: 0px;
+ }
 }
