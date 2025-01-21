@@ -11,8 +11,8 @@
 ._properties_metadat_row_{
     margin: 20px 0px 50px;
     display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
 }
 .meta_data_title{
     font-size: 30px;
@@ -37,4 +37,41 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+    ._properties_container {
+        margin: 10px 0px 50px;
+    }
+    
+    ._properties_heading {
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    ._properties_metadat_row_ {
+        margin: 10px 0px 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    ._properties_metadata_col {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    ._properties_img img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .meta_data_title {
+        font-size: 24px;
+    }
+    
+    ._meta_properties_content p {
+        font-size: 14px;
+    }
 }
