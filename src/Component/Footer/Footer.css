@@ -1,98 +1,310 @@
 ._footer_container {
-    padding: 15px 30px 20px;
-    min-height: 200px;
-    width: 100%;
-    background-color: black;
-    display: flex;
+  padding: 15px 30px 20px;
+  min-height: 200px;
+  width: 90%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 ._footer_col_left {
-    padding: 0px 20px 0px;
-    flex: 3;
+  padding: 0px 20px 0px;
+  flex: 3;
 }
 
 ._footer_col_mid {
-    padding: 40px 20px 0px;
-    flex: 1.5;
+  padding: 40px 20px 0px;
+  flex: 1.5;
 }
 
 ._footer_col_right {
-    padding: 40px 20px 0px;
-    flex: 3;
+  padding: 40px 20px 0px;
+  flex: 3;
 }
 
 .prefr_img {
-    object-fit: cover;
-    width: 303px;
-    height: 65px;
+  object-fit: cover;
+  width: 303px;
+  height: 65px;
 }
 
 .footer_heading {
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: sans-serif;
 }
 
 ._footer_col_left_row {
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: space-between;
+  margin-bottom: 15px;
+  display: flex;
+  /* justify-content: space-between; */
+  /* border: 1px solid red; */
 }
 
 .footer_contnet {
-    gap: 5px;
-    color: rgb(197, 197, 197);
-    font-size: 15px;
-    font-weight: 500;
-    display: flex;
-    align-items: flex-start;
+  gap: 5px;
+  color: rgb(197, 197, 197);
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-start;
+}
+.footer_contnet1 {
+  gap: 5px;
+  color: rgb(197, 197, 197);
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 80px;
 }
 
 .bolder_heading {
-    font-size: 25px;
-    color: white;
+  font-size: 25px;
+  color: white;
 }
 
 ._address_meta_data {
-    margin-top: 40px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width:460px) {
+  ._address_meta_data {
+    margin-top: 0px;
+  }
 }
 
 .footer_contnet_ {
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .contact_image_container {
-    display: flex;
-    gap: 5px;
-    margin-top: 4px;
-    /* border: 1px solid red; */
-    width: 25px;
+  display: flex;
+  gap: 5px;
+  margin-top: 4px;
+  /* border: 1px solid red; */
+  width: 25px;
 }
-._footer_col_left_row_{
-    display: flex;
-    align-items: center;
+._footer_col_left_row_ {
+  display: flex;
+  align-items: center;
 }
-._QR_Info_data img{
+._QR_Info_data img {
   margin-bottom: 11px;
 }
-._footer_col_right_img_row{
-    display: flex;
-    gap: 10px;
-    margin-top: 15px;
+._footer_col_right_img_row {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
 }
-._lower_footer_container p{
-   display: flex;
-   justify-content: center;
-   width: 100%;
-   color: white;
-   font-size: 1rem;
-   font-weight: 600;
-   padding-bottom: 30px;
+._lower_footer_container p {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 30px;
 }
-._footer_container_fluild{
-    background-color: black;
+._footer_container_fluild {
+  background-color: black;
+}
+
+@media (max-width: 1024px) {
+  ._footer_container {
+    padding: 15px 25px;
+    flex-direction: column;
+    min-height: auto;
+  }
+  
+  ._footer_col_left,
+  ._footer_col_mid,
+  ._footer_col_right {
+    flex: 1 1 100%;
+    padding: 25px;
+  }
+
+  .footer_heading {
+    font-size: 15px;
+    margin-top: 26%;
+  }
+
+  .footer_contnet, .footer_contnet1 {
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  .prefr_img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact_image_container {
+    width: 20px;
+    height: 20px;
+  }
+
+  ._lower_footer_container p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 375px) {
+  ._footer_container {
+    padding: 10px;
+  }
+
+  ._footer_col_left,
+  ._footer_col_mid,
+  ._footer_col_right {
+    flex: 1 1 100%;
+    padding: 15px;
+  }
+
+  .footer_heading {
+    font-size: 13px;
+  }
+
+  .footer_contnet, .footer_contnet1 {
+    font-size: 13px;
+    margin-left: 0;
+  }
+
+  .prefr_img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact_image_container {
+    width: 18px;
+    height: 18px;
+  }
+
+  ._lower_footer_container p {
+    font-size: 0.8rem;
+  }
+  ._footer_col_right_img_row{
+    max-width: 36%;
+  }
+}
+
+@media (max-width: 320px) {
+  ._footer_container {
+    padding: 8px;
+  }
+
+  ._footer_col_left,
+  ._footer_col_mid,
+  ._footer_col_right {
+    flex: 1 1 100%;
+    padding: 10px;
+  }
+
+  .footer_heading {
+    font-size: 12px;
+  }
+
+  .footer_contnet, .footer_contnet1 {
+    font-size: 12px;
+    margin-left: 0;
+  }
+
+  .prefr_img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact_image_container {
+    width: 15px;
+    height: 15px;
+  }
+
+  ._lower_footer_container p {
+    font-size: 0.75rem;
+  }
+  ._footer_col_right_img_row{
+    max-width: 36%;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  ._footer_container {
+    padding: 10px 20px;
+    flex-direction: column;
+    min-height: auto;
+  }
+  
+  ._footer_col_left,
+  ._footer_col_mid,
+  ._footer_col_right {
+    flex: 1 1 100%;
+    padding: 20px;
+  }
+
+  .footer_heading {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+
+  .footer_contnet, .footer_contnet1 {
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  .prefr_img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact_image_container {
+    width: 20px;
+    height: 20px;
+  }
+
+  ._lower_footer_container p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+  ._footer_container {
+    padding: 10px;
+  }
+
+  ._footer_col_left,
+  ._footer_col_mid,
+  ._footer_col_right {
+    flex: 1 1 100%;
+    padding: 10px;
+  }
+
+  .footer_heading {
+    font-size: 12px;
+  }
+
+  .footer_contnet, .footer_contnet1 {
+    font-size: 13px;
+    margin-left: 0;
+  }
+
+  .prefr_img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact_image_container {
+    width: 18px;
+    height: 18px;
+  }
+
+  ._lower_footer_container p {
+    font-size: 0.8rem;
+  }
 }

@@ -61,6 +61,8 @@
 
 }
 
+
+
 .header-subtitle {
   font-family: "DM Sans";
   font-size: 30px;
@@ -83,9 +85,29 @@
   text-decoration-skip-ink: none;
 }
 
+@media screen and (max-width:460px) {
+  .header-title{
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .header-subtitle {
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 10px;
+  }
+  .header-highlight {
+    font-family: "DM Sans";
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  
+}
+
 .loan-services {
-  width: 592px;
-  height: 116px;
+  /* height: 116px; */
   color: #424545;
 }
 
@@ -99,4 +121,10 @@
   color: #424545;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+}
+
+@media (max-width: 768px) {
+  .image-dashboard {
+    display: none;
+  }
 }

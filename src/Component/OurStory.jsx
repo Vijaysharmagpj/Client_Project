@@ -26,7 +26,6 @@ const OurStory = () => {
           </div>
         </div>
 
-        {/* for Trusted User */}
         <div className="story-container1">
           <div className="image-container1">
             <img src={images?.TrustedUser} alt="Our Story" />
@@ -35,14 +34,17 @@ const OurStory = () => {
           <p className="family1">Trusted User</p>
           <div class="creditpe-container1">
             <p class="creditpe-title1">
-            Trusted by Users Everywhere <span class="creditpe-description1">KREDITPE</span> is the go-to choice for reliable and transparent financial solutions, earning the trust of countless users on their journey to success.
+              Trusted by Users Everywhere 
+              <span class="creditpe-description1">KREDITPE</span>
+               is the go-to choice for reliable and transparent financial
+                solutions, earning the trust of countless users on their 
+                journey to success.
             </p>
           </div>
         </div>
       </div>
 
-{/* second wrapper */}
-      
+
       <div className="wrapper">
         <div className="story-container2">
           <div className="image-container2">
@@ -50,17 +52,16 @@ const OurStory = () => {
           </div>
           <p className="story-number2">50 Crore / Month+</p>
           <p className="family2">Loan Distributed</p>
-          <div class="creditpe-container2">
-            <p class="creditpe-title2">
-              KREDITPE{" "}
-              <span class="creditpe-description2">
-              has successfully distributed funds to empower lives, fueling aspirations and making dreams come true for countless individuals and families.
-              </span>
-            </p>
-          </div>
+            <div class="creditpe-container2">
+              <p class="creditpe-title2">
+                KREDITPE{" "}
+                <span class="creditpe-description2">
+                  has successfully distributed funds to empower lives, fueling aspirations and making dreams come true for countless individuals and families.
+                </span>
+              </p>
+            </div>
         </div>
 
-        {/* for Trusted User */}
         <div className="story-container3">
           <div className="image-container3">
             <img src={images?.loan} alt="Our Story" />
@@ -71,12 +72,15 @@ const OurStory = () => {
             <p class="creditpe-title3">
               KREDITPE{" "}
               <span class="creditpe-description3">
-              helps families achieve their dreams with seamless financial support—making life’s goals a reality, together
+                helps families achieve their dreams with seamless financial support—making life’s goals a reality, together
               </span>
             </p>
           </div>
         </div>
       </div>
+
+
+
     </>
   );
 };

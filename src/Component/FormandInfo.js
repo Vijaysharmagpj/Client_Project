@@ -24,7 +24,7 @@ const FormandInfo = () => {
                     </div>
 
                     <div className="row row-spaced">
-                        <div className="box1">
+                        <div className="doc_box1">
                             <div className="firstheading1">
                                 <img src={images?.docimage} alt="docimage" className="img1" />
                                 <div className="headName1">Documents Required</div>
@@ -66,7 +66,7 @@ const FormandInfo = () => {
                                     <li>Age - 18 to 70 years anyone can apply</li>
                                     <li>Monthly income of at least Rs.10000/ Month</li>
                                     <li>CREDIT SCORE (No CIBIL / Credit History Check)</li>
-                                    {/* <li>Photo</li> */}
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -89,8 +89,12 @@ const FormandInfo = () => {
                     </div>
 
                     <div className="centerContent">
+                        <div></div>
+                        <div style={{display:"flex"}}>
                         <img src={images?.logo} alt="logo" className="img2 mr-2" />
                         <p>Banking For All</p>
+                        </div>
+                       
                     </div>
                 </div>
 
@@ -144,7 +148,6 @@ const FormandInfo = () => {
                                     className="fields3"
                                     placeholder="Please enter your mobile number"
                                 />
-                                {/* <p className="validatemsg">*We would require this information to proceed further</p> */}
                             </div>
                             <div className="input-group">
                                 <span className="heading3">Email-ID</span>
@@ -168,6 +171,8 @@ const FormandInfo = () => {
                         </div>
 
                     </div>
+
+
                     <div className="allcontent">
                         <div className="tandc">*If you have an application in progress you can continue from where you left off</div>
                         <div className="content">By proceeding. you hereby consent to our communication via Call/ SMS/ Whatsapp regarding your loan application. You also authorize the bank and its representatives to reach you for any product/offers via bank's authorized channels.</div>
