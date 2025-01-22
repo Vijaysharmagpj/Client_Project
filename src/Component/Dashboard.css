@@ -38,7 +38,7 @@
   /* width: 844px;
   height: 347px; */
   flex: 3;
-  color: #2A6877;
+  color: #0d2e36;
   /* border: 1px solid black; */
   /* border: 1px solid black; */
 }
@@ -58,7 +58,7 @@
   text-underline-position: from-font;
   /* text-decoration-skip-ink: none; */
   /* border: 1px solid red; */
-
+  transition: all 0.2s ease-out;
 }
 
 

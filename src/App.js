@@ -15,7 +15,7 @@ const App = () => {
       <div className="body_container">
         <Navbar />
         <Dashboard />
-        <FormandInfo />
+        <FormandInfo /> 
         <OurStory />
         <Getstart/>
         <EligibilityCriteria/>
