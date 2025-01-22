@@ -4,7 +4,7 @@ import images from "../assets/index";
 
 const Dashboard = () => {
   const [typedText, setTypedText] = useState("");
-  const fullText = "APPLY INSTANT LOAN HERE FOR UPTO - 5 LACS NOW.";
+  const fullText = "APPPLY INSTANT LOAN HERE FOR UPTO - 5 LACS NOW.";
 
   useEffect(() => {
     let index = 0; // Track the index of the next character to type
