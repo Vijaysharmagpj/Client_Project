@@ -58,7 +58,7 @@
   text-underline-position: from-font;
   /* text-decoration-skip-ink: none; */
   /* border: 1px solid red; */
-
+  transition: all 0.2s ease-out;
 }
 
 

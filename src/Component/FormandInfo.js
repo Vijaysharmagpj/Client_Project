@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./FormandInfo.css";
 import images from "../assets";
 const FormandInfo = () => {
+    const [text, setText] = useState('');
+    const fullText = 'Neext';
+  
+    useEffect(() => {
+      let i = 0;
+      const interval = setInterval(() => {
+        if (i < fullText.length) {
+          setText((prev) => prev + fullText.charAt(i));
+          i++;
+        } else {
+          clearInterval(interval); // Stop once the text is fully typed
+        }
+      }, 100); // Adjust typing speed here
+  
+      return () => clearInterval(interval); // Cleanup on unmount
+    }, []);
     return (
         <>
             <div className="wrapper1">
@@ -184,7 +200,7 @@ const FormandInfo = () => {
                                 <span className="checkboxcontent">I submit my Aadhaar and Voluntary give me my Consent.</span>
                             </div>
                             <div>
-                                <button className="checkboxesdiv-button">Next</button>
+                                <button className="checkboxesdiv-button"> {text}</button>
                             </div>
                         </div>
                         </div>
