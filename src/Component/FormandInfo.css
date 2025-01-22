@@ -296,7 +296,7 @@ ul li::marker {
     height: 38px;
     margin-top: 15px;
     /* margin-left: 10px;  */
-    padding-right: 50px;
+    /* padding-right: 50px; */
     margin-right: 90px;
     padding-left: 25px;
     gap: 10px;
@@ -672,6 +672,8 @@ ul li::marker {
 
     .sidebox1 {
         margin-top: 5px;
+        margin-left: 0px;
+        border-radius: 5px;
             flex: 1;
             background-color: #DEFEF6;
     }
