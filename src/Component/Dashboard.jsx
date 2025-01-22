@@ -23,7 +23,7 @@ const Dashboard = () => {
 
   return (
     <>
-      <div className="dashboard-container">
+      <div className="dashboard-container" style={{padding:"10px 20px"}}>
         <div className="dashboard-content">
           <div className="dashboard-header">
             <p className="header-title">
@@ -49,7 +49,9 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
+      <div style={{padding:"10px 20px"}}>
       <button className="getstart">Get started</button>
+      </div>
     </>
   );
 };

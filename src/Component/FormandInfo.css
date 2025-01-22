@@ -520,15 +520,15 @@ ul li::marker {
     display: flex;
     height: 21px; 
     font-family: 'DM Sans', sans-serif; 
-    justify-content: space-between;
+    justify-content: center;
     font-size: 16px; 
     font-weight: 700; 
     text-align: left; 
     color: #50AC97; 
 }
-.centerContent p{
+/* .centerContent p{
     margin-right: 40px;
-}
+} */
 
 
 .buttonStyle{
@@ -573,13 +573,13 @@ ul li::marker {
     .header-subtitle1 {
         max-height: 21px; 
         gap: 5px; 
-        align-items: center; 
+        text-align: center;
     }
     
     .header-subtitle2 {
         max-height: 21px; 
         gap: 5px; 
-        align-items: center; 
+        text-align: center;
         margin-left: 15px;
     }
     
@@ -607,11 +607,12 @@ ul li::marker {
     }
 
     .sub-header1 {
-        margin-top: -10px;
+        margin-top: -21px;
         margin-left: 15px;
         font-family: 'DM Sans', sans-serif;
         font-size: 9px;
         font-weight: 500;
+        text-align: center;
     }
 
     .divider1 {
@@ -1141,7 +1142,7 @@ ul li::marker {
         font-size: 16px; 
         font-weight: 700; 
         color: #50AC97; 
-        justify-content: space-between;
+        justify-content: center;
         margin-top: 5px;
         margin-bottom: 15px;
     }

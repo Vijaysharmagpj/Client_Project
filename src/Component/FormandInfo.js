@@ -20,7 +20,7 @@ const FormandInfo = () => {
     }, []);
     return (
         <>
-            <div className="wrapper1">
+            <div className="wrapper1" >
                 <div className="container1">
                     <div className="header1">
                         <p className="header-title1">Achieve your Dreams With</p>
@@ -31,9 +31,9 @@ const FormandInfo = () => {
                         </p>
                     </div>
 
-                    <div className="sub-header1">
+                    <p className="sub-header1">
                         Instant Loan | 100% Digital | Collateral-Free Loan | NO CREDIT HISTORY NEED
-                    </div>
+                    </p>
                     <div className="divider1Container">
                         <hr className="divider1" />
 
