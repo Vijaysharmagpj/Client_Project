@@ -296,7 +296,7 @@ ul li::marker {
     height: 38px;
     margin-top: 15px;
     /* margin-left: 10px;  */
-    padding-right: 50px;
+    /* padding-right: 50px; */
     margin-right: 90px;
     padding-left: 25px;
     gap: 10px;
@@ -468,7 +468,7 @@ ul li::marker {
     display: flex;
 }
 
-.checkboxesdiv-button{
+/* .checkboxesdiv-button{
     margin-left: 11vw;
     padding: 4px;
     background-color: #1B424C;
@@ -477,7 +477,25 @@ ul li::marker {
     height: 50px;
     border-radius: 30px;
     margin-bottom: 5px;
+} */
+
+.checkboxesdiv-button {
+    margin-left: 11vw;
+    padding: 4px;
+    background-color: #1B424C;
+    color: white;
+    width: 80px;
+    height: 50px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    font-size: 16px; /* Adjust font size as necessary */
+    font-family: 'Courier New', Courier, monospace; /* Optional: gives a typewriter-like effect */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .checkboxes {
     width: 16px; /* Sets the width of the checkbox */
@@ -507,6 +525,9 @@ ul li::marker {
     font-weight: 700; 
     text-align: left; 
     color: #50AC97; 
+}
+.centerContent p{
+    margin-right: 40px;
 }
 
 
@@ -651,6 +672,8 @@ ul li::marker {
 
     .sidebox1 {
         margin-top: 5px;
+        margin-left: 0px;
+        border-radius: 5px;
             flex: 1;
             background-color: #DEFEF6;
     }

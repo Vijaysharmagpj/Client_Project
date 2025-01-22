@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./FormandInfo.css";
 import images from "../assets";
 const FormandInfo = () => {
+    const [text, setText] = useState('');
+    const fullText = 'Neext';
+
+    useEffect(() => {
+        let i = 0;
+        const interval = setInterval(() => {
+            if (i < fullText.length) {
+                setText((prev) => prev + fullText.charAt(i));
+                i++;
+            } else {
+                clearInterval(interval); // Stop once the text is fully typed
+            }
+        }, 100); // Adjust typing speed here
+
+        return () => clearInterval(interval); // Cleanup on unmount
+    }, []);
     return (
         <>
             <div className="wrapper1">
@@ -66,7 +82,7 @@ const FormandInfo = () => {
                                     <li>Age - 18 to 70 years anyone can apply</li>
                                     <li>Monthly income of at least Rs.10000/ Month</li>
                                     <li>CREDIT SCORE (No CIBIL / Credit History Check)</li>
-                                    
+
                                 </ul>
                             </div>
                         </div>
@@ -90,11 +106,11 @@ const FormandInfo = () => {
 
                     <div className="centerContent">
                         <div></div>
-                        <div style={{display:"flex"}}>
-                        <img src={images?.logo} alt="logo" className="img2 mr-2" />
-                        <p>Banking For All</p>
+                        <div style={{ display: "flex" }}>
+                            <img src={images?.logo} alt="logo" className="img2 mr-2" />
+                            <p>Banking For All</p>
                         </div>
-                       
+
                     </div>
                 </div>
 
@@ -174,19 +190,25 @@ const FormandInfo = () => {
 
 
                     <div className="allcontent">
-                        <div className="tandc">*If you have an application in progress you can continue from where you left off</div>
-                        <div className="content">By proceeding. you hereby consent to our communication via Call/ SMS/ Whatsapp regarding your loan application. You also authorize the bank and its representatives to reach you for any product/offers via bank's authorized channels.</div>
-                        <div class="mt-5">
-                        <div className="checkboxesdiv"><input type="checkbox" className="checkboxes" /><span className="checkboxcontent">I have read the following T&C and accept the same.</span></div>
-                        <div className="checkboxesdiv">
-                            <div>
-                                <input type="checkbox" className="checkboxes" />
-                                <span className="checkboxcontent">I submit my Aadhaar and Voluntary give me my Consent.</span>
-                            </div>
-                            <div>
-                                <button className="checkboxesdiv-button">Next</button>
-                            </div>
+                        <div className="tandc">
+                            <p>
+                                *If you have an application in progress you can continue from where you left off
+                            </p>
                         </div>
+                        <p className="content">
+                            By proceeding. you hereby consent to our communication via Call/ SMS/ Whatsapp regarding your loan application. You also authorize the bank and its representatives to reach you for any product/offers via bank's authorized channels.
+                            </p>
+                        <div class="mt-5">
+                            <div className="checkboxesdiv"><input type="checkbox" className="checkboxes" /><span className="checkboxcontent">I have read the following T&C and accept the same.</span></div>
+                            <div className="checkboxesdiv">
+                                <div>
+                                    <input type="checkbox" className="checkboxes" />
+                                    <span className="checkboxcontent">I submit my Aadhaar and Voluntary give me my Consent.</span>
+                                </div>
+                                <div>
+                                    <button className="checkboxesdiv-button"> {text}</button>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
