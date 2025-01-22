@@ -308,3 +308,9 @@
     font-size: 0.8rem;
   }
 }
+
+@media screen and (max-width:460px){
+  ._footer_col_right_img_row img{
+    width: 30%;
+  }
+}
