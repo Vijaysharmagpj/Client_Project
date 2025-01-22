@@ -468,7 +468,7 @@ ul li::marker {
     display: flex;
 }
 
-.checkboxesdiv-button{
+/* .checkboxesdiv-button{
     margin-left: 11vw;
     padding: 4px;
     background-color: #1B424C;
@@ -477,7 +477,25 @@ ul li::marker {
     height: 50px;
     border-radius: 30px;
     margin-bottom: 5px;
+} */
+
+.checkboxesdiv-button {
+    margin-left: 11vw;
+    padding: 4px;
+    background-color: #1B424C;
+    color: white;
+    width: 80px;
+    height: 50px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    font-size: 16px; /* Adjust font size as necessary */
+    font-family: 'Courier New', Courier, monospace; /* Optional: gives a typewriter-like effect */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .checkboxes {
     width: 16px; /* Sets the width of the checkbox */
@@ -507,6 +525,9 @@ ul li::marker {
     font-weight: 700; 
     text-align: left; 
     color: #50AC97; 
+}
+.centerContent p{
+    margin-right: 40px;
 }
 
 
