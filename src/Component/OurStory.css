@@ -27,8 +27,8 @@
 }
 
 .story-container {
-  width: 545px;
-  height: 480px;
+  max-width: 20%;
+  min-height: 25%;
   /* flex: 1; */
   /* border: 1px solid red; */
   /* margin-left: 127px; */
@@ -39,11 +39,16 @@
 }
 
 .image-container {
-  width: inherit;
+  /* max-width: 40%; */
   display: flex;
   justify-content: center;
-  margin-top: 53px;
+  align-items: center;
+  margin-top: 30px;
   
+}
+
+.storyimg{
+    max-width: 40%;
 }
 
 .story-number {
@@ -53,20 +58,20 @@
   justify-content: center;
   color: #e00000;
   font-family: "DM Sans";
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 600;
   line-height: 45.57px;
   text-align: left;
 }
 .family {
-  width: 227px;
-  height: 46px;
-  width: inherit;
+  /* width: 227px;
+  height: 46px; */
+  /* width: inherit; */
   display: flex;
   justify-content: center;
   color: #4A514F;
   font-family: DM Sans;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 600;
   line-height: 45.57px;
   text-align: left;
@@ -75,18 +80,18 @@
 }
 
 .creditpe-container {
-  width: 502px;
-  height: 78px;
-  margin-top: 40px;
-  margin-left: 37px;
+  /* width: 502px;
+  height: 78px; */
+  margin-bottom: 30px;
+  margin-left: 5px;
   color: #4a514f;
 }
 
 .creditpe-title {
   font-family: DM Sans;
-  font-size: 20px;
+  font-size: 10px;
   font-weight: 700;
-  line-height: 26.04px;
+  line-height: 16.04px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -94,9 +99,9 @@
 
 .creditpe-description {
   font-family: DM Sans;
-  font-size: 22px;
+  font-size: 15px;
   font-weight: 500;
-  line-height: 26.04px;
+  line-height: 16.04px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -105,8 +110,8 @@
 /* TrustedUser */
 
 .story-container1 {
-  width: 545px;
-  height: 480px;
+  max-width: 20%;
+  min-height: 25%;
   margin-left: 70px;
   background-color: #fffbe8;
   border-radius: 30px;
@@ -115,10 +120,15 @@
 }
 
 .image-container1 {
-  width: inherit;
+  /* max-width: 40%;
   display: flex;
   justify-content: center;
-  margin-top: 53px;
+  margin-top: 30px; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .story-number1 {
@@ -126,22 +136,19 @@
   width: inherit;
   display: flex;
   justify-content: center;
-  color: #F3AA00;
+  color: #e00000;
   font-family: "DM Sans";
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 600;
-  line-height: 45.57px;
+  line-height: 35.57px;
   text-align: left;
 }
 .family1 {
-  width: 227px;
-  height: 46px;
-  width: inherit;
   display: flex;
   justify-content: center;
   color: #4A514F;
   font-family: DM Sans;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 600;
   line-height: 45.57px;
   text-align: left;
@@ -150,29 +157,26 @@
 }
 
 .creditpe-container1 {
-  width: 502px;
-  height: 78px;
-  margin-top: 25px;
-  margin-left: 37px;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  color: #4a514f;
 }
 
 .creditpe-title1 {
   font-family: DM Sans;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 26.04px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 16.04px;
   text-align: left;
-  padding-right: 8px;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #4a514f;
 }
 
 .creditpe-description1 {
   font-family: DM Sans;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 26.04px;
+  font-size: 15px;
+  /* font-weight: 400; */
+  line-height: 16.04px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -182,8 +186,8 @@
 
 
 .story-container2 {
-  width: 545px;
-  height: 480px;
+  max-width: 20%;
+  min-height: 25%;
     margin-top: 35px;
     background-color: #E8FFEE;
     border-radius: 30px;
@@ -192,10 +196,10 @@
   }
   
   .image-container2 {
-    width: inherit;
     display: flex;
     justify-content: center;
-    margin-top: 53px;
+    align-items: center;
+    margin-top: 30px;
   }
   
   .story-number2 {
@@ -203,22 +207,19 @@
     width: inherit;
     display: flex;
     justify-content: center;
-    color: #00A22A;
+    color: #e00000;
     font-family: "DM Sans";
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 600;
-    line-height: 45.57px;
+    line-height: 35.57px;
     text-align: left;
   }
   .family2 {
-    width: 227px;
-    height: 46px;
-    width: inherit;
     display: flex;
     justify-content: center;
-    font-family: DM Sans;
     color: #4A514F;
-    font-size: 35px;
+    font-family: DM Sans;
+    font-size: 25px;
     font-weight: 600;
     line-height: 45.57px;
     text-align: left;
@@ -227,18 +228,19 @@
   }
   
   .creditpe-container2 {
-    width: 502px;
-    height: 78px;
-    margin-top: 40px;
-    margin-left: 37px;
-    color: #4a514f;
+    /* width: 502px;
+    height: 78px; */
+    /* margin-top: 40px; */
+    margin-bottom: 30px;
+  margin-left: 5px;
+  color: #4a514f;
   }
   
   .creditpe-title2 {
     font-family: DM Sans;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 700;
-    line-height: 26.04px;
+    line-height: 16.04px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -246,9 +248,9 @@
   
   .creditpe-description2 {
     font-family: DM Sans;
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 26.04px;
+    font-size: 15px;
+    /* font-weight: 400; */
+    line-height: 16.04px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -258,21 +260,23 @@
 
 
 .story-container3 {
-  width: 545px;
-  height: 480px;
-    margin-top: 35px;
-    margin-left: 70px;
-    background-color: #EBF6FF;
-    border-radius: 30px;
-    border: 1px solid #00000033;
-    box-shadow: 0px 4px 4px 0px #00000040;
+  max-width: 20%;
+  min-height: 25%;
+  /* flex: 1; */
+  /* border: 1px solid red; */
+  /* margin-left: 127px; */
+  background-color: #ffeceb;
+  border-radius: 30px;
+  border: 1px solid #ffeceb;
+  box-shadow: 0px 4px 4px 0px #00000040;
   }
   
   .image-container3 {
-    width: inherit;
     display: flex;
     justify-content: center;
-    margin-top: 53px;
+    align-items: center;
+    margin-top: 30px;
+    
   }
   
   .story-number3 {
@@ -280,22 +284,19 @@
     width: inherit;
     display: flex;
     justify-content: center;
-    color: #0A2773;
+    color: #e00000;
     font-family: "DM Sans";
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 600;
-    line-height: 45.57px;
+    line-height: 35.57px;
     text-align: left;
   }
   .family3 {
-    width: 227px;
-    height: 46px;
-    width: inherit;
     display: flex;
     justify-content: center;
-    font-family: DM Sans;
     color: #4A514F;
-    font-size: 35px;
+    font-family: DM Sans;
+    font-size: 25px;
     font-weight: 600;
     line-height: 45.57px;
     text-align: left;
@@ -304,18 +305,19 @@
   }
   
   .creditpe-container3 {
-    width: 502px;
+    /* width: 502px;
     height: 78px;
-    margin-top: 40px;
-    margin-left: 37px;
-    color: #4a514f;
+    margin-top: 40px; */
+    margin-bottom: 30px;
+  margin-left: 5px;
+  color: #4a514f;
   }
   
   .creditpe-title3 {
     font-family: DM Sans;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 700;
-    line-height: 26.04px;
+    line-height: 16.04px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -323,9 +325,9 @@
   
   .creditpe-description3 {
     font-family: DM Sans;
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 500;
-    line-height: 26.04px;
+    line-height: 16.04px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -489,7 +491,7 @@
 
   .creditpe-title3 {
     font-family: DM Sans;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 600;
     line-height: 25.04px;
   }
@@ -515,9 +517,17 @@
   }
 
   .creditpe-description2 {
+    /* font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 600; */
+
     font-family: DM Sans;
     font-size: 15px;
-    font-weight: 600;
+    /* font-weight: 400; */
+    line-height: 16.04px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
   }
 
 
@@ -547,8 +557,8 @@
      }
 
      .story-container {
-      width: 545px;
-      height: 480px;
+      /* width: 545px;
+      height: 480px; */
       background-color: #ffeceb;
       border-radius: 30px;
       border: 1px solid #ffeceb;

@@ -11,7 +11,7 @@ const OurStory = () => {
       <div className="wrapper">
         <div className="story-container">
           <div className="image-container">
-            <img src={images?.familyimage} alt="Our Story" />
+            <img src={images?.familyimage} alt="Our Story" className="storyimg"/>
           </div>
           <p className="story-number">1,50,000+</p>
           <p className="family">Happy Family</p>
@@ -28,7 +28,7 @@ const OurStory = () => {
 
         <div className="story-container1">
           <div className="image-container1">
-            <img src={images?.TrustedUser} alt="Our Story" />
+            <img src={images?.TrustedUser} alt="Our Story" className="storyimg" />
           </div>
           <p className="story-number1">1 Crore+</p>
           <p className="family1">Trusted User</p>
@@ -42,17 +42,15 @@ const OurStory = () => {
             </p>
           </div>
         </div>
-      </div>
 
 
-      <div className="wrapper">
         <div className="story-container2">
           <div className="image-container2">
-            <img src={images?.month} alt="Our Story" />
+            <img src={images?.month} alt="Our Story"  className="storyimg"/>
           </div>
           <p className="story-number2">50 Crore / Month+</p>
           <p className="family2">Loan Distributed</p>
-            <div class="creditpe-container2">
+          <div class="creditpe-container2">
               <p class="creditpe-title2">
                 KREDITPE{" "}
                 <span class="creditpe-description2">
@@ -64,7 +62,7 @@ const OurStory = () => {
 
         <div className="story-container3">
           <div className="image-container3">
-            <img src={images?.loan} alt="Our Story" />
+            <img src={images?.loan} alt="Our Story" className="storyimg"/>
           </div>
           <p className="story-number3">₹ 1500 Crore ++</p>
           <p className="family3">Loan Distributed Funds</p>
