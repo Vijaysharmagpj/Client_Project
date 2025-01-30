@@ -35,7 +35,7 @@ const OurStory = () => {
           <div class="creditpe-container1">
             <p class="creditpe-title1">
               Trusted by Users Everywhere 
-              <span class="creditpe-description1">KREDITPE</span>
+              <span class="creditpe-description1">{" "}KREDITPE{" "}</span>
                is the go-to choice for reliable and transparent financial
                 solutions, earning the trust of countless users on their 
                 journey to success.
